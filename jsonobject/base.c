@@ -3,11 +3,11 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "jsonobject.base", 
+        "name": "jsonobject.base",
         "sources": [
             "jsonobject/base.pyx"
         ]
-    }, 
+    },
     "module_name": "jsonobject.base"
 }
 END: Cython Metadata */
@@ -818,7 +818,7 @@ struct __pyx_obj_10jsonobject_4base___pyx_scope_struct_2_genexpr;
 
 /* "jsonobject/base.pyx":348
  *             super(JsonObjectBase, self).__delattr__(name)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         name = self.__class__.__name__
  *         predefined_properties = self._properties_by_attr.keys()
@@ -2055,8 +2055,8 @@ static PyObject *__pyx_codeobj__84;
 /* Late includes */
 
 /* "jsonobject/base.pyx":19
- * 
- * 
+ *
+ *
  * def get_settings(cls):             # <<<<<<<<<<<<<<
  *     return getattr(cls, CLASS_SETTINGS_ATTR,
  *                    JsonObjectClassSettings(type_config=TypeConfig()))
@@ -2088,11 +2088,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_get_settings(CYTHON_UNUSED PyObject
   __Pyx_RefNannySetupContext("get_settings", 0);
 
   /* "jsonobject/base.pyx":20
- * 
+ *
  * def get_settings(cls):
  *     return getattr(cls, CLASS_SETTINGS_ATTR,             # <<<<<<<<<<<<<<
  *                    JsonObjectClassSettings(type_config=TypeConfig()))
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_CLASS_SETTINGS_ATTR); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 20, __pyx_L1_error)
@@ -2102,8 +2102,8 @@ static PyObject *__pyx_pf_10jsonobject_4base_get_settings(CYTHON_UNUSED PyObject
  * def get_settings(cls):
  *     return getattr(cls, CLASS_SETTINGS_ATTR,
  *                    JsonObjectClassSettings(type_config=TypeConfig()))             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_JsonObjectClassSettings); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -2134,11 +2134,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_get_settings(CYTHON_UNUSED PyObject
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "jsonobject/base.pyx":20
- * 
+ *
  * def get_settings(cls):
  *     return getattr(cls, CLASS_SETTINGS_ATTR,             # <<<<<<<<<<<<<<
  *                    JsonObjectClassSettings(type_config=TypeConfig()))
- * 
+ *
  */
   __pyx_t_3 = __Pyx_GetAttr3(__pyx_v_cls, __pyx_t_1, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
@@ -2149,8 +2149,8 @@ static PyObject *__pyx_pf_10jsonobject_4base_get_settings(CYTHON_UNUSED PyObject
   goto __pyx_L0;
 
   /* "jsonobject/base.pyx":19
- * 
- * 
+ *
+ *
  * def get_settings(cls):             # <<<<<<<<<<<<<<
  *     return getattr(cls, CLASS_SETTINGS_ATTR,
  *                    JsonObjectClassSettings(type_config=TypeConfig()))
@@ -2173,11 +2173,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_get_settings(CYTHON_UNUSED PyObject
 }
 
 /* "jsonobject/base.pyx":24
- * 
- * 
+ *
+ *
  * def set_settings(cls, settings):             # <<<<<<<<<<<<<<
  *     setattr(cls, CLASS_SETTINGS_ATTR, settings)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -2250,11 +2250,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_2set_settings(CYTHON_UNUSED PyObjec
   __Pyx_RefNannySetupContext("set_settings", 0);
 
   /* "jsonobject/base.pyx":25
- * 
+ *
  * def set_settings(cls, settings):
  *     setattr(cls, CLASS_SETTINGS_ATTR, settings)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_CLASS_SETTINGS_ATTR); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -2262,11 +2262,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_2set_settings(CYTHON_UNUSED PyObjec
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":24
- * 
- * 
+ *
+ *
  * def set_settings(cls, settings):             # <<<<<<<<<<<<<<
  *     setattr(cls, CLASS_SETTINGS_ATTR, settings)
- * 
+ *
  */
 
   /* function exit code */
@@ -2283,11 +2283,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_2set_settings(CYTHON_UNUSED PyObjec
 }
 
 /* "jsonobject/base.pyx":63
- * 
+ *
  *     """
  *     def __init__(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         self._properties = properties if properties is not None else {}
- * 
+ *
  */
 
 /* Python wrapper */
@@ -2383,7 +2383,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig___init__(CYTHON_UNUSED
  *     """
  *     def __init__(self, properties=None, string_conversions=None):
  *         self._properties = properties if properties is not None else {}             # <<<<<<<<<<<<<<
- * 
+ *
  *         self._string_conversions = (
  */
   __pyx_t_2 = (__pyx_v_properties != Py_None);
@@ -2400,7 +2400,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig___init__(CYTHON_UNUSED
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":67
- * 
+ *
  *         self._string_conversions = (
  *             OrderedDict(string_conversions) if string_conversions is not None             # <<<<<<<<<<<<<<
  *             else OrderedDict()
@@ -2459,7 +2459,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig___init__(CYTHON_UNUSED
 
   /* "jsonobject/base.pyx":66
  *         self._properties = properties if properties is not None else {}
- * 
+ *
  *         self._string_conversions = (             # <<<<<<<<<<<<<<
  *             OrderedDict(string_conversions) if string_conversions is not None
  *             else OrderedDict()
@@ -2472,7 +2472,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig___init__(CYTHON_UNUSED
  *         # cache this
  *         self.string_conversions = self._get_string_conversions()             # <<<<<<<<<<<<<<
  *         self.properties = self._properties
- * 
+ *
  */
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_get_string_conversions); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
@@ -2498,7 +2498,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig___init__(CYTHON_UNUSED
  *         # cache this
  *         self.string_conversions = self._get_string_conversions()
  *         self.properties = self._properties             # <<<<<<<<<<<<<<
- * 
+ *
  *     def replace(self, properties=None, string_conversions=None):
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_properties_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
@@ -2507,11 +2507,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig___init__(CYTHON_UNUSED
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":63
- * 
+ *
  *     """
  *     def __init__(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         self._properties = properties if properties is not None else {}
- * 
+ *
  */
 
   /* function exit code */
@@ -2532,7 +2532,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig___init__(CYTHON_UNUSED
 
 /* "jsonobject/base.pyx":74
  *         self.properties = self._properties
- * 
+ *
  *     def replace(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         return TypeConfig(
  *             properties=(properties if properties is not None
@@ -2628,7 +2628,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_2replace(CYTHON_UNUSED
   __Pyx_RefNannySetupContext("replace", 0);
 
   /* "jsonobject/base.pyx":75
- * 
+ *
  *     def replace(self, properties=None, string_conversions=None):
  *         return TypeConfig(             # <<<<<<<<<<<<<<
  *             properties=(properties if properties is not None
@@ -2686,7 +2686,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_2replace(CYTHON_UNUSED
  *             string_conversions=(string_conversions if string_conversions is not None
  *                                 else self._string_conversions)             # <<<<<<<<<<<<<<
  *         )
- * 
+ *
  */
     __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_string_conversions_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 79, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
@@ -2697,7 +2697,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_2replace(CYTHON_UNUSED
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "jsonobject/base.pyx":75
- * 
+ *
  *     def replace(self, properties=None, string_conversions=None):
  *         return TypeConfig(             # <<<<<<<<<<<<<<
  *             properties=(properties if properties is not None
@@ -2713,7 +2713,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_2replace(CYTHON_UNUSED
 
   /* "jsonobject/base.pyx":74
  *         self.properties = self._properties
- * 
+ *
  *     def replace(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         return TypeConfig(
  *             properties=(properties if properties is not None
@@ -2735,7 +2735,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_2replace(CYTHON_UNUSED
 
 /* "jsonobject/base.pyx":82
  *         )
- * 
+ *
  *     def updated(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         """
  *         update properties and string_conversions with the paramenters
@@ -2833,7 +2833,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_4updated(CYTHON_UNUSED
   __Pyx_RefNannySetupContext("updated", 0);
 
   /* "jsonobject/base.pyx":90
- * 
+ *
  *         """
  *         _properties = self._properties.copy()             # <<<<<<<<<<<<<<
  *         _string_conversions = self.string_conversions[:]
@@ -2994,7 +2994,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_4updated(CYTHON_UNUSED
  *             properties=_properties,
  *             string_conversions=_string_conversions,             # <<<<<<<<<<<<<<
  *         )
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_string_conversions, __pyx_v__string_conversions) < 0) __PYX_ERR(0, 97, __pyx_L1_error)
 
@@ -3015,7 +3015,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_4updated(CYTHON_UNUSED
 
   /* "jsonobject/base.pyx":82
  *         )
- * 
+ *
  *     def updated(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         """
  *         update properties and string_conversions with the paramenters
@@ -3038,7 +3038,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_4updated(CYTHON_UNUSED
 
 /* "jsonobject/base.pyx":101
  *         )
- * 
+ *
  *     def _get_string_conversions(self):             # <<<<<<<<<<<<<<
  *         result = []
  *         for pattern, conversion in self._string_conversions.items():
@@ -3077,7 +3077,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_6_get_string_conversio
   __Pyx_RefNannySetupContext("_get_string_conversions", 0);
 
   /* "jsonobject/base.pyx":102
- * 
+ *
  *     def _get_string_conversions(self):
  *         result = []             # <<<<<<<<<<<<<<
  *         for pattern, conversion in self._string_conversions.items():
@@ -3165,11 +3165,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_6_get_string_conversio
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_6);
@@ -3255,7 +3255,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_6_get_string_conversio
  *             )
  *             result.append((pattern, conversion))             # <<<<<<<<<<<<<<
  *         return result
- * 
+ *
  */
     __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 108, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -3282,7 +3282,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_6_get_string_conversio
  *             )
  *             result.append((pattern, conversion))
  *         return result             # <<<<<<<<<<<<<<
- * 
+ *
  * META_ATTRS = ('properties', 'string_conversions', 'update_properties')
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3292,7 +3292,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_6_get_string_conversio
 
   /* "jsonobject/base.pyx":101
  *         )
- * 
+ *
  *     def _get_string_conversions(self):             # <<<<<<<<<<<<<<
  *         result = []
  *         for pattern, conversion in self._string_conversions.items():
@@ -3318,10 +3318,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_10TypeConfig_6_get_string_conversio
 
 /* "jsonobject/base.pyx":119
  *         pass
- * 
+ *
  *     def __new__(mcs, name, bases, dct):             # <<<<<<<<<<<<<<
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3440,10 +3440,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
   __Pyx_RefNannySetupContext("__new__", 0);
 
   /* "jsonobject/base.pyx":120
- * 
+ *
  *     def __new__(mcs, name, bases, dct):
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)             # <<<<<<<<<<<<<<
- * 
+ *
  *         cls.__configure(**{key: value
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_JsonObjectMeta); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 120, __pyx_L1_error)
@@ -3518,7 +3518,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
   /* "jsonobject/base.pyx":122
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)
- * 
+ *
  *         cls.__configure(**{key: value             # <<<<<<<<<<<<<<
  *                            for key, value in cls.Meta.__dict__.items()
  *                            if key in META_ATTRS})
@@ -3530,7 +3530,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
     __Pyx_GOTREF(__pyx_t_3);
 
     /* "jsonobject/base.pyx":123
- * 
+ *
  *         cls.__configure(**{key: value
  *                            for key, value in cls.Meta.__dict__.items()             # <<<<<<<<<<<<<<
  *                            if key in META_ATTRS})
@@ -3609,11 +3609,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
         if (likely(PyTuple_CheckExact(sequence))) {
-          __pyx_t_6 = PyTuple_GET_ITEM(sequence, 0); 
-          __pyx_t_9 = PyTuple_GET_ITEM(sequence, 1); 
+          __pyx_t_6 = PyTuple_GET_ITEM(sequence, 0);
+          __pyx_t_9 = PyTuple_GET_ITEM(sequence, 1);
         } else {
-          __pyx_t_6 = PyList_GET_ITEM(sequence, 0); 
-          __pyx_t_9 = PyList_GET_ITEM(sequence, 1); 
+          __pyx_t_6 = PyList_GET_ITEM(sequence, 0);
+          __pyx_t_9 = PyList_GET_ITEM(sequence, 1);
         }
         __Pyx_INCREF(__pyx_t_6);
         __Pyx_INCREF(__pyx_t_9);
@@ -3655,7 +3655,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                            for key, value in cls.Meta.__dict__.items()
  *                            if key in META_ATTRS})             # <<<<<<<<<<<<<<
  *         cls_settings = get_settings(cls)
- * 
+ *
  */
       __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_META_ATTRS); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 124, __pyx_L5_error)
       __Pyx_GOTREF(__pyx_t_5);
@@ -3666,7 +3666,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
         /* "jsonobject/base.pyx":122
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)
- * 
+ *
  *         cls.__configure(**{key: value             # <<<<<<<<<<<<<<
  *                            for key, value in cls.Meta.__dict__.items()
  *                            if key in META_ATTRS})
@@ -3678,12 +3678,12 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                            for key, value in cls.Meta.__dict__.items()
  *                            if key in META_ATTRS})             # <<<<<<<<<<<<<<
  *         cls_settings = get_settings(cls)
- * 
+ *
  */
       }
 
       /* "jsonobject/base.pyx":123
- * 
+ *
  *         cls.__configure(**{key: value
  *                            for key, value in cls.Meta.__dict__.items()             # <<<<<<<<<<<<<<
  *                            if key in META_ATTRS})
@@ -3703,7 +3703,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
   /* "jsonobject/base.pyx":122
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)
- * 
+ *
  *         cls.__configure(**{key: value             # <<<<<<<<<<<<<<
  *                            for key, value in cls.Meta.__dict__.items()
  *                            if key in META_ATTRS})
@@ -3718,7 +3718,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                            for key, value in cls.Meta.__dict__.items()
  *                            if key in META_ATTRS})
  *         cls_settings = get_settings(cls)             # <<<<<<<<<<<<<<
- * 
+ *
  *         properties = {}
  */
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_get_settings); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 125, __pyx_L1_error)
@@ -3743,7 +3743,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
   /* "jsonobject/base.pyx":127
  *         cls_settings = get_settings(cls)
- * 
+ *
  *         properties = {}             # <<<<<<<<<<<<<<
  *         properties_by_name = {}
  *         for key, value in dct.items():
@@ -3754,7 +3754,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
   __pyx_t_2 = 0;
 
   /* "jsonobject/base.pyx":128
- * 
+ *
  *         properties = {}
  *         properties_by_name = {}             # <<<<<<<<<<<<<<
  *         for key, value in dct.items():
@@ -3839,11 +3839,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_5 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_5 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_1 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_5 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_1 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_5 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(__pyx_t_5);
@@ -4006,7 +4006,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                 property_ = cls_settings.type_config.properties[type(value)](default=value)
  *                 properties[key] = dct[key] = property_             # <<<<<<<<<<<<<<
  *                 setattr(cls, key, property_)
- * 
+ *
  */
       if (unlikely(PyDict_SetItem(__pyx_v_properties, __pyx_v_key, __pyx_v_property_) < 0)) __PYX_ERR(0, 136, __pyx_L1_error)
       if (unlikely(PyObject_SetItem(__pyx_v_dct, __pyx_v_key, __pyx_v_property_) < 0)) __PYX_ERR(0, 136, __pyx_L1_error)
@@ -4015,7 +4015,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                 property_ = cls_settings.type_config.properties[type(value)](default=value)
  *                 properties[key] = dct[key] = property_
  *                 setattr(cls, key, property_)             # <<<<<<<<<<<<<<
- * 
+ *
  *         for key, property_ in properties.items():
  */
       __pyx_t_14 = PyObject_SetAttr(__pyx_v_cls, __pyx_v_key, __pyx_v_property_); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 137, __pyx_L1_error)
@@ -4043,7 +4043,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
   /* "jsonobject/base.pyx":139
  *                 setattr(cls, key, property_)
- * 
+ *
  *         for key, property_ in properties.items():             # <<<<<<<<<<<<<<
  *             property_.init_property(default_name=key,
  *                                     type_config=cls_settings.type_config)
@@ -4100,11 +4100,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_5 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_5 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_5 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_5 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_5);
@@ -4142,7 +4142,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
     __pyx_t_5 = 0;
 
     /* "jsonobject/base.pyx":140
- * 
+ *
  *         for key, property_ in properties.items():
  *             property_.init_property(default_name=key,             # <<<<<<<<<<<<<<
  *                                     type_config=cls_settings.type_config)
@@ -4167,7 +4167,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
     /* "jsonobject/base.pyx":140
- * 
+ *
  *         for key, property_ in properties.items():
  *             property_.init_property(default_name=key,             # <<<<<<<<<<<<<<
  *                                     type_config=cls_settings.type_config)
@@ -4232,7 +4232,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                 'You can only have one property named {0}'.format(
  *                     property_.name)             # <<<<<<<<<<<<<<
  *             properties_by_name[property_.name] = property_
- * 
+ *
  */
         __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_property_, __pyx_n_s_name); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
@@ -4274,7 +4274,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                 'You can only have one property named {0}'.format(
  *                     property_.name)
  *             properties_by_name[property_.name] = property_             # <<<<<<<<<<<<<<
- * 
+ *
  *         for base in bases:
  */
     __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_property_, __pyx_n_s_name); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 146, __pyx_L1_error)
@@ -4284,7 +4284,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
     /* "jsonobject/base.pyx":139
  *                 setattr(cls, key, property_)
- * 
+ *
  *         for key, property_ in properties.items():             # <<<<<<<<<<<<<<
  *             property_.init_property(default_name=key,
  *                                     type_config=cls_settings.type_config)
@@ -4294,7 +4294,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
   /* "jsonobject/base.pyx":148
  *             properties_by_name[property_.name] = property_
- * 
+ *
  *         for base in bases:             # <<<<<<<<<<<<<<
  *             if getattr(base, '_properties_by_attr', None):
  *                 for key, value in base._properties_by_attr.items():
@@ -4342,7 +4342,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
     __pyx_t_5 = 0;
 
     /* "jsonobject/base.pyx":149
- * 
+ *
  *         for base in bases:
  *             if getattr(base, '_properties_by_attr', None):             # <<<<<<<<<<<<<<
  *                 for key, value in base._properties_by_attr.items():
@@ -4431,11 +4431,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
           if (likely(PyTuple_CheckExact(sequence))) {
-            __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-            __pyx_t_9 = PyTuple_GET_ITEM(sequence, 1); 
+            __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+            __pyx_t_9 = PyTuple_GET_ITEM(sequence, 1);
           } else {
-            __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-            __pyx_t_9 = PyList_GET_ITEM(sequence, 1); 
+            __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+            __pyx_t_9 = PyList_GET_ITEM(sequence, 1);
           }
           __Pyx_INCREF(__pyx_t_2);
           __Pyx_INCREF(__pyx_t_9);
@@ -4488,7 +4488,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                     if key not in properties:
  *                         properties[key] = value             # <<<<<<<<<<<<<<
  *                         properties_by_name[value.name] = value
- * 
+ *
  */
           if (unlikely(PyDict_SetItem(__pyx_v_properties, __pyx_v_key, __pyx_v_value) < 0)) __PYX_ERR(0, 152, __pyx_L1_error)
 
@@ -4496,7 +4496,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *                     if key not in properties:
  *                         properties[key] = value
  *                         properties_by_name[value.name] = value             # <<<<<<<<<<<<<<
- * 
+ *
  *         cls._properties_by_attr = properties
  */
           __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_value, __pyx_n_s_name); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 153, __pyx_L1_error)
@@ -4524,7 +4524,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
       /* "jsonobject/base.pyx":149
- * 
+ *
  *         for base in bases:
  *             if getattr(base, '_properties_by_attr', None):             # <<<<<<<<<<<<<<
  *                 for key, value in base._properties_by_attr.items():
@@ -4534,7 +4534,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
     /* "jsonobject/base.pyx":148
  *             properties_by_name[property_.name] = property_
- * 
+ *
  *         for base in bases:             # <<<<<<<<<<<<<<
  *             if getattr(base, '_properties_by_attr', None):
  *                 for key, value in base._properties_by_attr.items():
@@ -4544,7 +4544,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
   /* "jsonobject/base.pyx":155
  *                         properties_by_name[value.name] = value
- * 
+ *
  *         cls._properties_by_attr = properties             # <<<<<<<<<<<<<<
  *         cls._properties_by_key = properties_by_name
  *         return cls
@@ -4552,11 +4552,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_cls, __pyx_n_s_properties_by_attr, __pyx_v_properties) < 0) __PYX_ERR(0, 155, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":156
- * 
+ *
  *         cls._properties_by_attr = properties
  *         cls._properties_by_key = properties_by_name             # <<<<<<<<<<<<<<
  *         return cls
- * 
+ *
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_cls, __pyx_n_s_properties_by_key, __pyx_v_properties_by_name) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
 
@@ -4564,7 +4564,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
  *         cls._properties_by_attr = properties
  *         cls._properties_by_key = properties_by_name
  *         return cls             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __configure(cls, properties=None, string_conversions=None,
  */
   __Pyx_XDECREF(__pyx_r);
@@ -4574,10 +4574,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
   /* "jsonobject/base.pyx":119
  *         pass
- * 
+ *
  *     def __new__(mcs, name, bases, dct):             # <<<<<<<<<<<<<<
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)
- * 
+ *
  */
 
   /* function exit code */
@@ -4609,7 +4609,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta___new__(CYTHON_UNU
 
 /* "jsonobject/base.pyx":159
  *         return cls
- * 
+ *
  *     def __configure(cls, properties=None, string_conversions=None,             # <<<<<<<<<<<<<<
  *                     update_properties=None):
  *         super_settings = get_settings(super(cls, cls))
@@ -4633,7 +4633,7 @@ static PyObject *__pyx_pw_10jsonobject_4base_14JsonObjectMeta_3__configure(PyObj
     values[2] = ((PyObject *)((PyObject *)Py_None));
 
     /* "jsonobject/base.pyx":160
- * 
+ *
  *     def __configure(cls, properties=None, string_conversions=None,
  *                     update_properties=None):             # <<<<<<<<<<<<<<
  *         super_settings = get_settings(super(cls, cls))
@@ -4712,7 +4712,7 @@ static PyObject *__pyx_pw_10jsonobject_4base_14JsonObjectMeta_3__configure(PyObj
 
   /* "jsonobject/base.pyx":159
  *         return cls
- * 
+ *
  *     def __configure(cls, properties=None, string_conversions=None,             # <<<<<<<<<<<<<<
  *                     update_properties=None):
  *         super_settings = get_settings(super(cls, cls))
@@ -5016,7 +5016,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta_2__configure(CYTHO
  *                 string_conversions=string_conversions)
  *         set_settings(cls, super_settings._replace(type_config=type_config))             # <<<<<<<<<<<<<<
  *         return cls
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_set_settings); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -5082,8 +5082,8 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta_2__configure(CYTHO
  *                 string_conversions=string_conversions)
  *         set_settings(cls, super_settings._replace(type_config=type_config))
  *         return cls             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_v_cls);
@@ -5092,7 +5092,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta_2__configure(CYTHO
 
   /* "jsonobject/base.pyx":159
  *         return cls
- * 
+ *
  *     def __configure(cls, properties=None, string_conversions=None,             # <<<<<<<<<<<<<<
  *                     update_properties=None):
  *         super_settings = get_settings(super(cls, cls))
@@ -5117,10 +5117,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectMeta_2__configure(CYTHO
 
 /* "jsonobject/base.pyx":178
  * class _JsonObjectPrivateInstanceVariables(object):
- * 
+ *
  *     def __init__(self, dynamic_properties=None):             # <<<<<<<<<<<<<<
  *         self.dynamic_properties = dynamic_properties or {}
- * 
+ *
  */
 
 /* Python wrapper */
@@ -5198,11 +5198,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_35_JsonObjectPrivateInstanceVariabl
   __Pyx_RefNannySetupContext("__init__", 0);
 
   /* "jsonobject/base.pyx":179
- * 
+ *
  *     def __init__(self, dynamic_properties=None):
  *         self.dynamic_properties = dynamic_properties or {}             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_dynamic_properties); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 179, __pyx_L1_error)
   if (!__pyx_t_2) {
@@ -5222,10 +5222,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_35_JsonObjectPrivateInstanceVariabl
 
   /* "jsonobject/base.pyx":178
  * class _JsonObjectPrivateInstanceVariables(object):
- * 
+ *
  *     def __init__(self, dynamic_properties=None):             # <<<<<<<<<<<<<<
  *         self.dynamic_properties = dynamic_properties or {}
- * 
+ *
  */
 
   /* function exit code */
@@ -5244,10 +5244,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_35_JsonObjectPrivateInstanceVariabl
 
 /* "jsonobject/base.pyx":193
  *     _string_conversions = ()
- * 
+ *
  *     def __init__(self, _obj=None, **kwargs):             # <<<<<<<<<<<<<<
  *         setattr(self, '_$', _JsonObjectPrivateInstanceVariables())
- * 
+ *
  */
 
 /* Python wrapper */
@@ -5350,10 +5350,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
   __Pyx_RefNannySetupContext("__init__", 0);
 
   /* "jsonobject/base.pyx":194
- * 
+ *
  *     def __init__(self, _obj=None, **kwargs):
  *         setattr(self, '_$', _JsonObjectPrivateInstanceVariables())             # <<<<<<<<<<<<<<
- * 
+ *
  *         self._obj = check_type(_obj, dict,
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_JsonObjectPrivateInstanceVariab); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 194, __pyx_L1_error)
@@ -5378,7 +5378,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
   /* "jsonobject/base.pyx":196
  *         setattr(self, '_$', _JsonObjectPrivateInstanceVariables())
- * 
+ *
  *         self._obj = check_type(_obj, dict,             # <<<<<<<<<<<<<<
  *                                'JsonObject must wrap a dict or None')
  *         self._wrapped = {}
@@ -5440,7 +5440,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
  *         self._obj = check_type(_obj, dict,
  *                                'JsonObject must wrap a dict or None')
  *         self._wrapped = {}             # <<<<<<<<<<<<<<
- * 
+ *
  *         for key, value in list(self._obj.items()):
  */
   __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 198, __pyx_L1_error)
@@ -5450,7 +5450,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
   /* "jsonobject/base.pyx":200
  *         self._wrapped = {}
- * 
+ *
  *         for key, value in list(self._obj.items()):             # <<<<<<<<<<<<<<
  *             try:
  *                 self.set_raw_value(key, value)
@@ -5498,11 +5498,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_3);
@@ -5540,7 +5540,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
     __pyx_t_3 = 0;
 
     /* "jsonobject/base.pyx":201
- * 
+ *
  *         for key, value in list(self._obj.items()):
  *             try:             # <<<<<<<<<<<<<<
  *                 self.set_raw_value(key, value)
@@ -5612,7 +5612,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
         /* "jsonobject/base.pyx":201
- * 
+ *
  *         for key, value in list(self._obj.items()):
  *             try:             # <<<<<<<<<<<<<<
  *                 self.set_raw_value(key, value)
@@ -5731,7 +5731,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
       __pyx_L9_except_error:;
 
       /* "jsonobject/base.pyx":201
- * 
+ *
  *         for key, value in list(self._obj.items()):
  *             try:             # <<<<<<<<<<<<<<
  *                 self.set_raw_value(key, value)
@@ -5747,7 +5747,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
     /* "jsonobject/base.pyx":200
  *         self._wrapped = {}
- * 
+ *
  *         for key, value in list(self._obj.items()):             # <<<<<<<<<<<<<<
  *             try:
  *                 self.set_raw_value(key, value)
@@ -5757,7 +5757,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
   /* "jsonobject/base.pyx":213
  *                 )
- * 
+ *
  *         for attr, value in kwargs.items():             # <<<<<<<<<<<<<<
  *             try:
  *                 setattr(self, attr, value)
@@ -5814,11 +5814,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_3 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_t_6);
@@ -5856,7 +5856,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
     __pyx_t_6 = 0;
 
     /* "jsonobject/base.pyx":214
- * 
+ *
  *         for attr, value in kwargs.items():
  *             try:             # <<<<<<<<<<<<<<
  *                 setattr(self, attr, value)
@@ -5881,7 +5881,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
         __pyx_t_4 = PyObject_SetAttr(__pyx_v_self, __pyx_v_attr, __pyx_v_value); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 215, __pyx_L21_error)
 
         /* "jsonobject/base.pyx":214
- * 
+ *
  *         for attr, value in kwargs.items():
  *             try:             # <<<<<<<<<<<<<<
  *                 setattr(self, attr, value)
@@ -6004,7 +6004,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
       __pyx_L23_except_error:;
 
       /* "jsonobject/base.pyx":214
- * 
+ *
  *         for attr, value in kwargs.items():
  *             try:             # <<<<<<<<<<<<<<
  *                 setattr(self, attr, value)
@@ -6020,7 +6020,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
     /* "jsonobject/base.pyx":213
  *                 )
- * 
+ *
  *         for attr, value in kwargs.items():             # <<<<<<<<<<<<<<
  *             try:
  *                 setattr(self, attr, value)
@@ -6030,7 +6030,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
   /* "jsonobject/base.pyx":226
  *                 )
- * 
+ *
  *         for key, value in self._properties_by_key.items():             # <<<<<<<<<<<<<<
  *             if key not in self._obj:
  *                 try:
@@ -6105,11 +6105,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_3 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_1 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_1 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_t_1);
@@ -6147,7 +6147,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
     __pyx_t_1 = 0;
 
     /* "jsonobject/base.pyx":227
- * 
+ *
  *         for key, value in self._properties_by_key.items():
  *             if key not in self._obj:             # <<<<<<<<<<<<<<
  *                 try:
@@ -6245,7 +6245,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
  *                 except TypeError:
  *                     d = value.default(self)             # <<<<<<<<<<<<<<
  *                 self[key] = d
- * 
+ *
  */
           __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_v_value, __pyx_n_s_default); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 231, __pyx_L38_except_error)
           __Pyx_GOTREF(__pyx_t_13);
@@ -6298,13 +6298,13 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
  *                 except TypeError:
  *                     d = value.default(self)
  *                 self[key] = d             # <<<<<<<<<<<<<<
- * 
+ *
  *     def set_raw_value(self, key, value):
  */
       if (unlikely(PyObject_SetItem(__pyx_v_self, __pyx_v_key, __pyx_v_d) < 0)) __PYX_ERR(0, 232, __pyx_L1_error)
 
       /* "jsonobject/base.pyx":227
- * 
+ *
  *         for key, value in self._properties_by_key.items():
  *             if key not in self._obj:             # <<<<<<<<<<<<<<
  *                 try:
@@ -6314,7 +6314,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
     /* "jsonobject/base.pyx":226
  *                 )
- * 
+ *
  *         for key, value in self._properties_by_key.items():             # <<<<<<<<<<<<<<
  *             if key not in self._obj:
  *                 try:
@@ -6324,10 +6324,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
   /* "jsonobject/base.pyx":193
  *     _string_conversions = ()
- * 
+ *
  *     def __init__(self, _obj=None, **kwargs):             # <<<<<<<<<<<<<<
  *         setattr(self, '_$', _JsonObjectPrivateInstanceVariables())
- * 
+ *
  */
 
   /* function exit code */
@@ -6357,7 +6357,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase___init__(CYTHON_UN
 
 /* "jsonobject/base.pyx":234
  *                 self[key] = d
- * 
+ *
  *     def set_raw_value(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped = self.__wrap(key, value)
  *         if key in self._properties_by_key:
@@ -6451,7 +6451,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_2set_raw_value(CYT
   __Pyx_RefNannySetupContext("set_raw_value", 0);
 
   /* "jsonobject/base.pyx":235
- * 
+ *
  *     def set_raw_value(self, key, value):
  *         wrapped = self.__wrap(key, value)             # <<<<<<<<<<<<<<
  *         if key in self._properties_by_key:
@@ -6544,7 +6544,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_2set_raw_value(CYT
  *             self[key] = wrapped
  *         else:
  *             setattr(self, key, wrapped)             # <<<<<<<<<<<<<<
- * 
+ *
  *     @classmethod
  */
   /*else*/ {
@@ -6554,7 +6554,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_2set_raw_value(CYT
 
   /* "jsonobject/base.pyx":234
  *                 self[key] = d
- * 
+ *
  *     def set_raw_value(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped = self.__wrap(key, value)
  *         if key in self._properties_by_key:
@@ -6578,11 +6578,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_2set_raw_value(CYT
 }
 
 /* "jsonobject/base.pyx":242
- * 
+ *
  *     @classmethod
  *     def properties(cls):             # <<<<<<<<<<<<<<
  *         return cls._properties_by_attr.copy()
- * 
+ *
  */
 
 /* Python wrapper */
@@ -6611,7 +6611,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_4properties(CYTHON
  *     @classmethod
  *     def properties(cls):
  *         return cls._properties_by_attr.copy()             # <<<<<<<<<<<<<<
- * 
+ *
  *     @property
  */
   __Pyx_XDECREF(__pyx_r);
@@ -6640,11 +6640,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_4properties(CYTHON
   goto __pyx_L0;
 
   /* "jsonobject/base.pyx":242
- * 
+ *
  *     @classmethod
  *     def properties(cls):             # <<<<<<<<<<<<<<
  *         return cls._properties_by_attr.copy()
- * 
+ *
  */
 
   /* function exit code */
@@ -6661,11 +6661,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_4properties(CYTHON
 }
 
 /* "jsonobject/base.pyx":246
- * 
+ *
  *     @property
  *     def __dynamic_properties(self):             # <<<<<<<<<<<<<<
  *         return getattr(self, '_$').dynamic_properties
- * 
+ *
  */
 
 /* Python wrapper */
@@ -6693,7 +6693,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_6__dynamic_propert
  *     @property
  *     def __dynamic_properties(self):
  *         return getattr(self, '_$').dynamic_properties             # <<<<<<<<<<<<<<
- * 
+ *
  *     @classmethod
  */
   __Pyx_XDECREF(__pyx_r);
@@ -6707,11 +6707,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_6__dynamic_propert
   goto __pyx_L0;
 
   /* "jsonobject/base.pyx":246
- * 
+ *
  *     @property
  *     def __dynamic_properties(self):             # <<<<<<<<<<<<<<
  *         return getattr(self, '_$').dynamic_properties
- * 
+ *
  */
 
   /* function exit code */
@@ -6727,7 +6727,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_6__dynamic_propert
 }
 
 /* "jsonobject/base.pyx":250
- * 
+ *
  *     @classmethod
  *     def wrap(cls, obj):             # <<<<<<<<<<<<<<
  *         self = cls(obj)
@@ -6810,7 +6810,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_8wrap(CYTHON_UNUSE
  *     def wrap(cls, obj):
  *         self = cls(obj)             # <<<<<<<<<<<<<<
  *         return self
- * 
+ *
  */
   __Pyx_INCREF(__pyx_v_cls);
   __pyx_t_2 = __pyx_v_cls; __pyx_t_3 = NULL;
@@ -6835,7 +6835,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_8wrap(CYTHON_UNUSE
  *     def wrap(cls, obj):
  *         self = cls(obj)
  *         return self             # <<<<<<<<<<<<<<
- * 
+ *
  *     def validate(self, required=True):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -6844,7 +6844,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_8wrap(CYTHON_UNUSE
   goto __pyx_L0;
 
   /* "jsonobject/base.pyx":250
- * 
+ *
  *     @classmethod
  *     def wrap(cls, obj):             # <<<<<<<<<<<<<<
  *         self = cls(obj)
@@ -6867,7 +6867,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_8wrap(CYTHON_UNUSE
 
 /* "jsonobject/base.pyx":254
  *         return self
- * 
+ *
  *     def validate(self, required=True):             # <<<<<<<<<<<<<<
  *         for key, value in self._wrapped.items():
  *             self.__get_property(key).validate(value, required=required)
@@ -6955,11 +6955,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_10validate(CYTHON_
   __Pyx_RefNannySetupContext("validate", 0);
 
   /* "jsonobject/base.pyx":255
- * 
+ *
  *     def validate(self, required=True):
  *         for key, value in self._wrapped.items():             # <<<<<<<<<<<<<<
  *             self.__get_property(key).validate(value, required=required)
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wrapped); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 255, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -7031,11 +7031,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_10validate(CYTHON_
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_6 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_6 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_2);
       __Pyx_INCREF(__pyx_t_6);
@@ -7076,7 +7076,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_10validate(CYTHON_
  *     def validate(self, required=True):
  *         for key, value in self._wrapped.items():
  *             self.__get_property(key).validate(value, required=required)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def to_json(self):
  */
     __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_JsonObjectBase__get_property); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 256, __pyx_L1_error)
@@ -7115,18 +7115,18 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_10validate(CYTHON_
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
     /* "jsonobject/base.pyx":255
- * 
+ *
  *     def validate(self, required=True):
  *         for key, value in self._wrapped.items():             # <<<<<<<<<<<<<<
  *             self.__get_property(key).validate(value, required=required)
- * 
+ *
  */
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "jsonobject/base.pyx":254
  *         return self
- * 
+ *
  *     def validate(self, required=True):             # <<<<<<<<<<<<<<
  *         for key, value in self._wrapped.items():
  *             self.__get_property(key).validate(value, required=required)
@@ -7153,7 +7153,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_10validate(CYTHON_
 
 /* "jsonobject/base.pyx":258
  *             self.__get_property(key).validate(value, required=required)
- * 
+ *
  *     def to_json(self):             # <<<<<<<<<<<<<<
  *         self.validate()
  *         return copy.deepcopy(self._obj)
@@ -7183,11 +7183,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_12to_json(CYTHON_U
   __Pyx_RefNannySetupContext("to_json", 0);
 
   /* "jsonobject/base.pyx":259
- * 
+ *
  *     def to_json(self):
  *         self.validate()             # <<<<<<<<<<<<<<
  *         return copy.deepcopy(self._obj)
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_validate); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 259, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -7212,7 +7212,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_12to_json(CYTHON_U
  *     def to_json(self):
  *         self.validate()
  *         return copy.deepcopy(self._obj)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __get_property(self, key):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -7245,7 +7245,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_12to_json(CYTHON_U
 
   /* "jsonobject/base.pyx":258
  *             self.__get_property(key).validate(value, required=required)
- * 
+ *
  *     def to_json(self):             # <<<<<<<<<<<<<<
  *         self.validate()
  *         return copy.deepcopy(self._obj)
@@ -7267,7 +7267,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_12to_json(CYTHON_U
 
 /* "jsonobject/base.pyx":262
  *         return copy.deepcopy(self._obj)
- * 
+ *
  *     def __get_property(self, key):             # <<<<<<<<<<<<<<
  *         try:
  *             return self._properties_by_key[key]
@@ -7353,7 +7353,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_14__get_property(C
   __Pyx_RefNannySetupContext("__get_property", 0);
 
   /* "jsonobject/base.pyx":263
- * 
+ *
  *     def __get_property(self, key):
  *         try:             # <<<<<<<<<<<<<<
  *             return self._properties_by_key[key]
@@ -7386,7 +7386,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_14__get_property(C
       goto __pyx_L7_try_return;
 
       /* "jsonobject/base.pyx":263
- * 
+ *
  *     def __get_property(self, key):
  *         try:             # <<<<<<<<<<<<<<
  *             return self._properties_by_key[key]
@@ -7402,7 +7402,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_14__get_property(C
  *             return self._properties_by_key[key]
  *         except KeyError:             # <<<<<<<<<<<<<<
  *             return DefaultProperty(type_config=get_settings(self).type_config)
- * 
+ *
  */
     __pyx_t_6 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_KeyError);
     if (__pyx_t_6) {
@@ -7416,7 +7416,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_14__get_property(C
  *             return self._properties_by_key[key]
  *         except KeyError:
  *             return DefaultProperty(type_config=get_settings(self).type_config)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __wrap(self, key, value):
  */
       __Pyx_XDECREF(__pyx_r);
@@ -7461,7 +7461,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_14__get_property(C
     __pyx_L5_except_error:;
 
     /* "jsonobject/base.pyx":263
- * 
+ *
  *     def __get_property(self, key):
  *         try:             # <<<<<<<<<<<<<<
  *             return self._properties_by_key[key]
@@ -7488,7 +7488,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_14__get_property(C
 
   /* "jsonobject/base.pyx":262
  *         return copy.deepcopy(self._obj)
- * 
+ *
  *     def __get_property(self, key):             # <<<<<<<<<<<<<<
  *         try:
  *             return self._properties_by_key[key]
@@ -7514,10 +7514,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_14__get_property(C
 
 /* "jsonobject/base.pyx":268
  *             return DefaultProperty(type_config=get_settings(self).type_config)
- * 
+ *
  *     def __wrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -7605,10 +7605,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_16__wrap(CYTHON_UN
   __Pyx_RefNannySetupContext("__wrap", 0);
 
   /* "jsonobject/base.pyx":269
- * 
+ *
  *     def __wrap(self, key, value):
  *         property_ = self.__get_property(key)             # <<<<<<<<<<<<<<
- * 
+ *
  *         if value is None:
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_JsonObjectBase__get_property); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 269, __pyx_L1_error)
@@ -7633,20 +7633,20 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_16__wrap(CYTHON_UN
 
   /* "jsonobject/base.pyx":271
  *         property_ = self.__get_property(key)
- * 
+ *
  *         if value is None:             # <<<<<<<<<<<<<<
  *             return None
- * 
+ *
  */
   __pyx_t_4 = (__pyx_v_value == Py_None);
   __pyx_t_5 = (__pyx_t_4 != 0);
   if (__pyx_t_5) {
 
     /* "jsonobject/base.pyx":272
- * 
+ *
  *         if value is None:
  *             return None             # <<<<<<<<<<<<<<
- * 
+ *
  *         return property_.wrap(value)
  */
     __Pyx_XDECREF(__pyx_r);
@@ -7655,18 +7655,18 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_16__wrap(CYTHON_UN
 
     /* "jsonobject/base.pyx":271
  *         property_ = self.__get_property(key)
- * 
+ *
  *         if value is None:             # <<<<<<<<<<<<<<
  *             return None
- * 
+ *
  */
   }
 
   /* "jsonobject/base.pyx":274
  *             return None
- * 
+ *
  *         return property_.wrap(value)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __unwrap(self, key, value):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -7693,10 +7693,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_16__wrap(CYTHON_UN
 
   /* "jsonobject/base.pyx":268
  *             return DefaultProperty(type_config=get_settings(self).type_config)
- * 
+ *
  *     def __wrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
- * 
+ *
  */
 
   /* function exit code */
@@ -7715,7 +7715,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_16__wrap(CYTHON_UN
 
 /* "jsonobject/base.pyx":276
  *         return property_.wrap(value)
- * 
+ *
  *     def __unwrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
  *         if value is None:
@@ -7812,7 +7812,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
   __Pyx_RefNannySetupContext("__unwrap", 0);
 
   /* "jsonobject/base.pyx":277
- * 
+ *
  *     def __unwrap(self, key, value):
  *         property_ = self.__get_property(key)             # <<<<<<<<<<<<<<
  *         if value is None:
@@ -7879,7 +7879,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
  *             wrapped, unwrapped = None, None
  *         else:
  *             wrapped, unwrapped = property_.unwrap(value)             # <<<<<<<<<<<<<<
- * 
+ *
  *         if isinstance(wrapped, JsonObjectBase):
  */
   /*else*/ {
@@ -7910,11 +7910,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_1 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_1 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(__pyx_t_3);
@@ -7955,7 +7955,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
 
   /* "jsonobject/base.pyx":283
  *             wrapped, unwrapped = property_.unwrap(value)
- * 
+ *
  *         if isinstance(wrapped, JsonObjectBase):             # <<<<<<<<<<<<<<
  *             # validate containers but not objects
  *             recursive_kwargs = {'recursive': False}
@@ -7982,7 +7982,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
 
     /* "jsonobject/base.pyx":283
  *             wrapped, unwrapped = property_.unwrap(value)
- * 
+ *
  *         if isinstance(wrapped, JsonObjectBase):             # <<<<<<<<<<<<<<
  *             # validate containers but not objects
  *             recursive_kwargs = {'recursive': False}
@@ -8075,7 +8075,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
  *             **recursive_kwargs,
  *         )
  *         return wrapped, unwrapped             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __setitem__(self, key, value):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8093,7 +8093,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
 
   /* "jsonobject/base.pyx":276
  *         return property_.wrap(value)
- * 
+ *
  *     def __unwrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
  *         if value is None:
@@ -8120,7 +8120,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_18__unwrap(CYTHON_
 
 /* "jsonobject/base.pyx":298
  *         return wrapped, unwrapped
- * 
+ *
  *     def __setitem__(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped, unwrapped = self.__unwrap(key, value)
  *         self._wrapped[key] = wrapped
@@ -8215,7 +8215,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_20__setitem__(CYTH
   __Pyx_RefNannySetupContext("__setitem__", 0);
 
   /* "jsonobject/base.pyx":299
- * 
+ *
  *     def __setitem__(self, key, value):
  *         wrapped, unwrapped = self.__unwrap(key, value)             # <<<<<<<<<<<<<<
  *         self._wrapped[key] = wrapped
@@ -8278,11 +8278,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_20__setitem__(CYTH
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_5 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_5 = PyTuple_GET_ITEM(sequence, 1);
     } else {
-      __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_5 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+      __pyx_t_5 = PyList_GET_ITEM(sequence, 1);
     }
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_t_5);
@@ -8500,7 +8500,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_20__setitem__(CYTH
  *             assert key not in self._properties_by_attr
  *             self.__dynamic_properties[key] = wrapped             # <<<<<<<<<<<<<<
  *             super(JsonObjectBase, self).__setattr__(key, wrapped)
- * 
+ *
  */
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_JsonObjectBase__dynamic_propert); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 307, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -8511,7 +8511,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_20__setitem__(CYTH
  *             assert key not in self._properties_by_attr
  *             self.__dynamic_properties[key] = wrapped
  *             super(JsonObjectBase, self).__setattr__(key, wrapped)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __is_dynamic_property(self, name):
  */
     __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_JsonObjectBase); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 308, __pyx_L1_error)
@@ -8588,7 +8588,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_20__setitem__(CYTH
 
   /* "jsonobject/base.pyx":298
  *         return wrapped, unwrapped
- * 
+ *
  *     def __setitem__(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped, unwrapped = self.__unwrap(key, value)
  *         self._wrapped[key] = wrapped
@@ -8614,7 +8614,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_20__setitem__(CYTH
 
 /* "jsonobject/base.pyx":310
  *             super(JsonObjectBase, self).__setattr__(key, wrapped)
- * 
+ *
  *     def __is_dynamic_property(self, name):             # <<<<<<<<<<<<<<
  *         return (
  *             name not in self._properties_by_attr and
@@ -8695,7 +8695,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_22__is_dynamic_pro
   __Pyx_RefNannySetupContext("__is_dynamic_property", 0);
 
   /* "jsonobject/base.pyx":311
- * 
+ *
  *     def __is_dynamic_property(self, name):
  *         return (             # <<<<<<<<<<<<<<
  *             name not in self._properties_by_attr and
@@ -8764,7 +8764,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_22__is_dynamic_pro
  *             not name.startswith('_') and
  *             not inspect.isdatadescriptor(getattr(self.__class__, name, None))             # <<<<<<<<<<<<<<
  *         )
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_inspect); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 314, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -8806,7 +8806,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_22__is_dynamic_pro
 
   /* "jsonobject/base.pyx":310
  *             super(JsonObjectBase, self).__setattr__(key, wrapped)
- * 
+ *
  *     def __is_dynamic_property(self, name):             # <<<<<<<<<<<<<<
  *         return (
  *             name not in self._properties_by_attr and
@@ -8829,7 +8829,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_22__is_dynamic_pro
 
 /* "jsonobject/base.pyx":317
  *         )
- * 
+ *
  *     def __setattr__(self, name, value):             # <<<<<<<<<<<<<<
  *         if self.__is_dynamic_property(name):
  *             if self._allow_dynamic_properties:
@@ -8920,7 +8920,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_24__setattr__(CYTH
   __Pyx_RefNannySetupContext("__setattr__", 0);
 
   /* "jsonobject/base.pyx":318
- * 
+ *
  *     def __setattr__(self, name, value):
  *         if self.__is_dynamic_property(name):             # <<<<<<<<<<<<<<
  *             if self._allow_dynamic_properties:
@@ -9030,7 +9030,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_24__setattr__(CYTH
     __pyx_L4:;
 
     /* "jsonobject/base.pyx":318
- * 
+ *
  *     def __setattr__(self, name, value):
  *         if self.__is_dynamic_property(name):             # <<<<<<<<<<<<<<
  *             if self._allow_dynamic_properties:
@@ -9043,7 +9043,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_24__setattr__(CYTH
  *                 )
  *         else:
  *             super(JsonObjectBase, self).__setattr__(name, value)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __delitem__(self, key):
  */
   /*else*/ {
@@ -9114,7 +9114,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_24__setattr__(CYTH
 
   /* "jsonobject/base.pyx":317
  *         )
- * 
+ *
  *     def __setattr__(self, name, value):             # <<<<<<<<<<<<<<
  *         if self.__is_dynamic_property(name):
  *             if self._allow_dynamic_properties:
@@ -9138,7 +9138,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_24__setattr__(CYTH
 
 /* "jsonobject/base.pyx":329
  *             super(JsonObjectBase, self).__setattr__(name, value)
- * 
+ *
  *     def __delitem__(self, key):             # <<<<<<<<<<<<<<
  *         if key in self._properties_by_key:
  *             raise DeleteNotAllowed(key)
@@ -9217,7 +9217,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_26__delitem__(CYTH
   __Pyx_RefNannySetupContext("__delitem__", 0);
 
   /* "jsonobject/base.pyx":330
- * 
+ *
  *     def __delitem__(self, key):
  *         if key in self._properties_by_key:             # <<<<<<<<<<<<<<
  *             raise DeleteNotAllowed(key)
@@ -9259,7 +9259,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_26__delitem__(CYTH
     __PYX_ERR(0, 331, __pyx_L1_error)
 
     /* "jsonobject/base.pyx":330
- * 
+ *
  *     def __delitem__(self, key):
  *         if key in self._properties_by_key:             # <<<<<<<<<<<<<<
  *             raise DeleteNotAllowed(key)
@@ -9348,7 +9348,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_26__delitem__(CYTH
  *             del self._wrapped[key]
  *             del self.__dynamic_properties[key]             # <<<<<<<<<<<<<<
  *             super(JsonObjectBase, self).__delattr__(key)
- * 
+ *
  */
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_JsonObjectBase__dynamic_propert); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 337, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -9359,7 +9359,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_26__delitem__(CYTH
  *             del self._wrapped[key]
  *             del self.__dynamic_properties[key]
  *             super(JsonObjectBase, self).__delattr__(key)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __delattr__(self, name):
  */
     __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_JsonObjectBase); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 338, __pyx_L1_error)
@@ -9398,7 +9398,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_26__delitem__(CYTH
 
   /* "jsonobject/base.pyx":329
  *             super(JsonObjectBase, self).__setattr__(name, value)
- * 
+ *
  *     def __delitem__(self, key):             # <<<<<<<<<<<<<<
  *         if key in self._properties_by_key:
  *             raise DeleteNotAllowed(key)
@@ -9421,7 +9421,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_26__delitem__(CYTH
 
 /* "jsonobject/base.pyx":340
  *             super(JsonObjectBase, self).__delattr__(key)
- * 
+ *
  *     def __delattr__(self, name):             # <<<<<<<<<<<<<<
  *         if name in self._properties_by_attr:
  *             raise DeleteNotAllowed(name)
@@ -9500,7 +9500,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_28__delattr__(CYTH
   __Pyx_RefNannySetupContext("__delattr__", 0);
 
   /* "jsonobject/base.pyx":341
- * 
+ *
  *     def __delattr__(self, name):
  *         if name in self._properties_by_attr:             # <<<<<<<<<<<<<<
  *             raise DeleteNotAllowed(name)
@@ -9542,7 +9542,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_28__delattr__(CYTH
     __PYX_ERR(0, 342, __pyx_L1_error)
 
     /* "jsonobject/base.pyx":341
- * 
+ *
  *     def __delattr__(self, name):
  *         if name in self._properties_by_attr:             # <<<<<<<<<<<<<<
  *             raise DeleteNotAllowed(name)
@@ -9601,7 +9601,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_28__delattr__(CYTH
  *             del self[name]
  *         else:
  *             super(JsonObjectBase, self).__delattr__(name)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __repr__(self):
  */
   /*else*/ {
@@ -9642,7 +9642,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_28__delattr__(CYTH
 
   /* "jsonobject/base.pyx":340
  *             super(JsonObjectBase, self).__delattr__(key)
- * 
+ *
  *     def __delattr__(self, name):             # <<<<<<<<<<<<<<
  *         if name in self._properties_by_attr:
  *             raise DeleteNotAllowed(name)
@@ -9665,7 +9665,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_28__delattr__(CYTH
 
 /* "jsonobject/base.pyx":348
  *             super(JsonObjectBase, self).__delattr__(name)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         name = self.__class__.__name__
  *         predefined_properties = self._properties_by_attr.keys()
@@ -9927,7 +9927,7 @@ static PyObject *__pyx_gb_10jsonobject_4base_14JsonObjectBase_8__repr___5generat
  *                 value=getattr(self, key)
  *             ) for key in properties),             # <<<<<<<<<<<<<<
  *         )
- * 
+ *
  */
   if (unlikely(!__pyx_cur_scope->__pyx_outer_scope->__pyx_v_properties)) { __Pyx_RaiseClosureNameError("properties"); __PYX_ERR(0, 361, __pyx_L1_error) }
   if (unlikely(__pyx_cur_scope->__pyx_outer_scope->__pyx_v_properties == Py_None)) {
@@ -10019,7 +10019,7 @@ static PyObject *__pyx_gb_10jsonobject_4base_14JsonObjectBase_8__repr___5generat
  *                 value=getattr(self, key)
  *             ) for key in properties),             # <<<<<<<<<<<<<<
  *         )
- * 
+ *
  */
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10056,7 +10056,7 @@ static PyObject *__pyx_gb_10jsonobject_4base_14JsonObjectBase_8__repr___5generat
 
 /* "jsonobject/base.pyx":348
  *             super(JsonObjectBase, self).__delattr__(name)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         name = self.__class__.__name__
  *         predefined_properties = self._properties_by_attr.keys()
@@ -10088,7 +10088,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_30__repr__(CYTHON_
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_self);
 
   /* "jsonobject/base.pyx":349
- * 
+ *
  *     def __repr__(self):
  *         name = self.__class__.__name__             # <<<<<<<<<<<<<<
  *         predefined_properties = self._properties_by_attr.keys()
@@ -10274,7 +10274,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_30__repr__(CYTHON_
 
   /* "jsonobject/base.pyx":348
  *             super(JsonObjectBase, self).__delattr__(name)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         name = self.__class__.__name__
  *         predefined_properties = self._properties_by_attr.keys()
@@ -10300,10 +10300,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_14JsonObjectBase_30__repr__(CYTHON_
 
 /* "jsonobject/base.pyx":376
  *     _wrapped = None
- * 
+ *
  *     def keys(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.keys()
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10329,10 +10329,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_keys(C
   __Pyx_RefNannySetupContext("keys", 0);
 
   /* "jsonobject/base.pyx":377
- * 
+ *
  *     def keys(self):
  *         return self._wrapped.keys()             # <<<<<<<<<<<<<<
- * 
+ *
  *     def items(self):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -10362,10 +10362,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_keys(C
 
   /* "jsonobject/base.pyx":376
  *     _wrapped = None
- * 
+ *
  *     def keys(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.keys()
- * 
+ *
  */
 
   /* function exit code */
@@ -10383,10 +10383,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_keys(C
 
 /* "jsonobject/base.pyx":379
  *         return self._wrapped.keys()
- * 
+ *
  *     def items(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.items()
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10412,10 +10412,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_2items
   __Pyx_RefNannySetupContext("items", 0);
 
   /* "jsonobject/base.pyx":380
- * 
+ *
  *     def items(self):
  *         return self._wrapped.items()             # <<<<<<<<<<<<<<
- * 
+ *
  *     def iteritems(self):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -10445,10 +10445,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_2items
 
   /* "jsonobject/base.pyx":379
  *         return self._wrapped.keys()
- * 
+ *
  *     def items(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.items()
- * 
+ *
  */
 
   /* function exit code */
@@ -10466,10 +10466,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_2items
 
 /* "jsonobject/base.pyx":382
  *         return self._wrapped.items()
- * 
+ *
  *     def iteritems(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.iteritems()
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10495,10 +10495,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_4iteri
   __Pyx_RefNannySetupContext("iteritems", 0);
 
   /* "jsonobject/base.pyx":383
- * 
+ *
  *     def iteritems(self):
  *         return self._wrapped.iteritems()             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __contains__(self, item):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -10528,10 +10528,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_4iteri
 
   /* "jsonobject/base.pyx":382
  *         return self._wrapped.items()
- * 
+ *
  *     def iteritems(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.iteritems()
- * 
+ *
  */
 
   /* function exit code */
@@ -10549,10 +10549,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_4iteri
 
 /* "jsonobject/base.pyx":385
  *         return self._wrapped.iteritems()
- * 
+ *
  *     def __contains__(self, item):             # <<<<<<<<<<<<<<
  *         return item in self._wrapped
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10625,10 +10625,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_6__con
   __Pyx_RefNannySetupContext("__contains__", 0);
 
   /* "jsonobject/base.pyx":386
- * 
+ *
  *     def __contains__(self, item):
  *         return item in self._wrapped             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __getitem__(self, item):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -10644,10 +10644,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_6__con
 
   /* "jsonobject/base.pyx":385
  *         return self._wrapped.iteritems()
- * 
+ *
  *     def __contains__(self, item):             # <<<<<<<<<<<<<<
  *         return item in self._wrapped
- * 
+ *
  */
 
   /* function exit code */
@@ -10663,10 +10663,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_6__con
 
 /* "jsonobject/base.pyx":388
  *         return item in self._wrapped
- * 
+ *
  *     def __getitem__(self, item):             # <<<<<<<<<<<<<<
  *         return self._wrapped[item]
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10739,10 +10739,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_8__get
   __Pyx_RefNannySetupContext("__getitem__", 0);
 
   /* "jsonobject/base.pyx":389
- * 
+ *
  *     def __getitem__(self, item):
  *         return self._wrapped[item]             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __iter__(self):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -10757,10 +10757,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_8__get
 
   /* "jsonobject/base.pyx":388
  *         return item in self._wrapped
- * 
+ *
  *     def __getitem__(self, item):             # <<<<<<<<<<<<<<
  *         return self._wrapped[item]
- * 
+ *
  */
 
   /* function exit code */
@@ -10777,10 +10777,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_8__get
 
 /* "jsonobject/base.pyx":391
  *         return self._wrapped[item]
- * 
+ *
  *     def __iter__(self):             # <<<<<<<<<<<<<<
  *         return iter(self._wrapped)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10805,10 +10805,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_10__it
   __Pyx_RefNannySetupContext("__iter__", 0);
 
   /* "jsonobject/base.pyx":392
- * 
+ *
  *     def __iter__(self):
  *         return iter(self._wrapped)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __len__(self):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -10823,10 +10823,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_10__it
 
   /* "jsonobject/base.pyx":391
  *         return self._wrapped[item]
- * 
+ *
  *     def __iter__(self):             # <<<<<<<<<<<<<<
  *         return iter(self._wrapped)
- * 
+ *
  */
 
   /* function exit code */
@@ -10843,10 +10843,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_10__it
 
 /* "jsonobject/base.pyx":394
  *         return iter(self._wrapped)
- * 
+ *
  *     def __len__(self):             # <<<<<<<<<<<<<<
  *         return len(self._wrapped)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10871,11 +10871,11 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_12__le
   __Pyx_RefNannySetupContext("__len__", 0);
 
   /* "jsonobject/base.pyx":395
- * 
+ *
  *     def __len__(self):
  *         return len(self._wrapped)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wrapped); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 395, __pyx_L1_error)
@@ -10890,10 +10890,10 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_12__le
 
   /* "jsonobject/base.pyx":394
  *         return iter(self._wrapped)
- * 
+ *
  *     def __len__(self):             # <<<<<<<<<<<<<<
  *         return len(self._wrapped)
- * 
+ *
  */
 
   /* function exit code */
@@ -10908,8 +10908,8 @@ static PyObject *__pyx_pf_10jsonobject_4base_26_LimitedDictInterfaceMixin_12__le
 }
 
 /* "jsonobject/base.pyx":398
- * 
- * 
+ *
+ *
  * def get_dynamic_properties(obj):             # <<<<<<<<<<<<<<
  *     return getattr(obj, '_$').dynamic_properties.copy()
  */
@@ -10937,7 +10937,7 @@ static PyObject *__pyx_pf_10jsonobject_4base_4get_dynamic_properties(CYTHON_UNUS
   __Pyx_RefNannySetupContext("get_dynamic_properties", 0);
 
   /* "jsonobject/base.pyx":399
- * 
+ *
  * def get_dynamic_properties(obj):
  *     return getattr(obj, '_$').dynamic_properties.copy()             # <<<<<<<<<<<<<<
  */
@@ -10970,8 +10970,8 @@ static PyObject *__pyx_pf_10jsonobject_4base_4get_dynamic_properties(CYTHON_UNUS
   goto __pyx_L0;
 
   /* "jsonobject/base.pyx":398
- * 
- * 
+ *
+ *
  * def get_dynamic_properties(obj):             # <<<<<<<<<<<<<<
  *     return getattr(obj, '_$').dynamic_properties.copy()
  */
@@ -11055,7 +11055,7 @@ static PyTypeObject __pyx_type_10jsonobject_4base___pyx_scope_struct____repr__ =
   sizeof(struct __pyx_obj_10jsonobject_4base___pyx_scope_struct____repr__), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_4base___pyx_scope_struct____repr__, /*tp_dealloc*/
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -11154,7 +11154,7 @@ static PyTypeObject __pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr =
   sizeof(struct __pyx_obj_10jsonobject_4base___pyx_scope_struct_1_genexpr), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_4base___pyx_scope_struct_1_genexpr, /*tp_dealloc*/
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -11257,7 +11257,7 @@ static PyTypeObject __pyx_type_10jsonobject_4base___pyx_scope_struct_2_genexpr =
   sizeof(struct __pyx_obj_10jsonobject_4base___pyx_scope_struct_2_genexpr), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_4base___pyx_scope_struct_2_genexpr, /*tp_dealloc*/
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -11575,8 +11575,8 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_slice_);
 
   /* "jsonobject/base.pyx":19
- * 
- * 
+ *
+ *
  * def get_settings(cls):             # <<<<<<<<<<<<<<
  *     return getattr(cls, CLASS_SETTINGS_ATTR,
  *                    JsonObjectClassSettings(type_config=TypeConfig()))
@@ -11587,11 +11587,11 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_pyx, __pyx_n_s_get_settings, 19, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) __PYX_ERR(0, 19, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":24
- * 
- * 
+ *
+ *
  * def set_settings(cls, settings):             # <<<<<<<<<<<<<<
  *     setattr(cls, CLASS_SETTINGS_ATTR, settings)
- * 
+ *
  */
   __pyx_tuple__8 = PyTuple_Pack(2, __pyx_n_s_cls, __pyx_n_s_settings); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__8);
@@ -11599,8 +11599,8 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_pyx, __pyx_n_s_set_settings, 24, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) __PYX_ERR(0, 24, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":28
- * 
- * 
+ *
+ *
  * class TypeConfig(object):             # <<<<<<<<<<<<<<
  *     """
  *     This class allows the user to configure dynamic
@@ -11610,11 +11610,11 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__10);
 
   /* "jsonobject/base.pyx":63
- * 
+ *
  *     """
  *     def __init__(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         self._properties = properties if properties is not None else {}
- * 
+ *
  */
   __pyx_tuple__11 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_properties, __pyx_n_s_string_conversions); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__11);
@@ -11626,7 +11626,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":74
  *         self.properties = self._properties
- * 
+ *
  *     def replace(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         return TypeConfig(
  *             properties=(properties if properties is not None
@@ -11641,7 +11641,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":82
  *         )
- * 
+ *
  *     def updated(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         """
  *         update properties and string_conversions with the paramenters
@@ -11656,7 +11656,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":101
  *         )
- * 
+ *
  *     def _get_string_conversions(self):             # <<<<<<<<<<<<<<
  *         result = []
  *         for pattern, conversion in self._string_conversions.items():
@@ -11668,10 +11668,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":111
  *         return result
- * 
+ *
  * META_ATTRS = ('properties', 'string_conversions', 'update_properties')             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_tuple__22 = PyTuple_Pack(3, __pyx_n_s_properties, __pyx_n_s_string_conversions, __pyx_n_s_update_properties); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 111, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__22);
@@ -11679,10 +11679,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":116
  * class JsonObjectMeta(type):
- * 
+ *
  *     class Meta(object):             # <<<<<<<<<<<<<<
  *         pass
- * 
+ *
  */
   __pyx_tuple__23 = PyTuple_Pack(1, __pyx_builtin_object); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__23);
@@ -11690,10 +11690,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":119
  *         pass
- * 
+ *
  *     def __new__(mcs, name, bases, dct):             # <<<<<<<<<<<<<<
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)
- * 
+ *
  */
   __pyx_tuple__24 = PyTuple_Pack(14, __pyx_n_s_mcs, __pyx_n_s_name, __pyx_n_s_bases, __pyx_n_s_dct, __pyx_n_s_cls, __pyx_n_s_cls_settings, __pyx_n_s_properties, __pyx_n_s_properties_by_name, __pyx_n_s_key, __pyx_n_s_value, __pyx_n_s_property_2, __pyx_n_s_base, __pyx_n_s_key, __pyx_n_s_value); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(0, 119, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__24);
@@ -11702,7 +11702,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":159
  *         return cls
- * 
+ *
  *     def __configure(cls, properties=None, string_conversions=None,             # <<<<<<<<<<<<<<
  *                     update_properties=None):
  *         super_settings = get_settings(super(cls, cls))
@@ -11716,10 +11716,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__28);
 
   /* "jsonobject/base.pyx":176
- * 
- * 
+ *
+ *
  * class _JsonObjectPrivateInstanceVariables(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __init__(self, dynamic_properties=None):
  */
   __pyx_tuple__29 = PyTuple_Pack(1, __pyx_builtin_object); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(0, 176, __pyx_L1_error)
@@ -11728,10 +11728,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":178
  * class _JsonObjectPrivateInstanceVariables(object):
- * 
+ *
  *     def __init__(self, dynamic_properties=None):             # <<<<<<<<<<<<<<
  *         self.dynamic_properties = dynamic_properties or {}
- * 
+ *
  */
   __pyx_tuple__30 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_dynamic_properties); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 178, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__30);
@@ -11742,10 +11742,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__32);
 
   /* "jsonobject/base.pyx":183
- * 
+ *
  * @six.add_metaclass(JsonObjectMeta)
  * class JsonObjectBase(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     _allow_dynamic_properties = True
  */
   __pyx_tuple__33 = PyTuple_Pack(1, __pyx_builtin_object); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 183, __pyx_L1_error)
@@ -11754,10 +11754,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":193
  *     _string_conversions = ()
- * 
+ *
  *     def __init__(self, _obj=None, **kwargs):             # <<<<<<<<<<<<<<
  *         setattr(self, '_$', _JsonObjectPrivateInstanceVariables())
- * 
+ *
  */
   __pyx_tuple__34 = PyTuple_Pack(7, __pyx_n_s_self, __pyx_n_s_obj, __pyx_n_s_kwargs, __pyx_n_s_key, __pyx_n_s_value, __pyx_n_s_attr, __pyx_n_s_d); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__34);
@@ -11769,7 +11769,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":234
  *                 self[key] = d
- * 
+ *
  *     def set_raw_value(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped = self.__wrap(key, value)
  *         if key in self._properties_by_key:
@@ -11780,11 +11780,11 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(3, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_pyx, __pyx_n_s_set_raw_value, 234, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 234, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":242
- * 
+ *
  *     @classmethod
  *     def properties(cls):             # <<<<<<<<<<<<<<
  *         return cls._properties_by_attr.copy()
- * 
+ *
  */
   __pyx_tuple__39 = PyTuple_Pack(1, __pyx_n_s_cls); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__39);
@@ -11792,11 +11792,11 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_pyx, __pyx_n_s_properties, 242, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 242, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":246
- * 
+ *
  *     @property
  *     def __dynamic_properties(self):             # <<<<<<<<<<<<<<
  *         return getattr(self, '_$').dynamic_properties
- * 
+ *
  */
   __pyx_tuple__41 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 246, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__41);
@@ -11804,7 +11804,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_pyx, __pyx_n_s_dynamic_properties_2, 246, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 246, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":250
- * 
+ *
  *     @classmethod
  *     def wrap(cls, obj):             # <<<<<<<<<<<<<<
  *         self = cls(obj)
@@ -11817,7 +11817,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":254
  *         return self
- * 
+ *
  *     def validate(self, required=True):             # <<<<<<<<<<<<<<
  *         for key, value in self._wrapped.items():
  *             self.__get_property(key).validate(value, required=required)
@@ -11832,7 +11832,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":258
  *             self.__get_property(key).validate(value, required=required)
- * 
+ *
  *     def to_json(self):             # <<<<<<<<<<<<<<
  *         self.validate()
  *         return copy.deepcopy(self._obj)
@@ -11844,7 +11844,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":262
  *         return copy.deepcopy(self._obj)
- * 
+ *
  *     def __get_property(self, key):             # <<<<<<<<<<<<<<
  *         try:
  *             return self._properties_by_key[key]
@@ -11856,10 +11856,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":268
  *             return DefaultProperty(type_config=get_settings(self).type_config)
- * 
+ *
  *     def __wrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
- * 
+ *
  */
   __pyx_tuple__52 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_key, __pyx_n_s_value, __pyx_n_s_property_2); if (unlikely(!__pyx_tuple__52)) __PYX_ERR(0, 268, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__52);
@@ -11868,7 +11868,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":276
  *         return property_.wrap(value)
- * 
+ *
  *     def __unwrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
  *         if value is None:
@@ -11880,7 +11880,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":298
  *         return wrapped, unwrapped
- * 
+ *
  *     def __setitem__(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped, unwrapped = self.__unwrap(key, value)
  *         self._wrapped[key] = wrapped
@@ -11892,7 +11892,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":310
  *             super(JsonObjectBase, self).__setattr__(key, wrapped)
- * 
+ *
  *     def __is_dynamic_property(self, name):             # <<<<<<<<<<<<<<
  *         return (
  *             name not in self._properties_by_attr and
@@ -11904,7 +11904,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":317
  *         )
- * 
+ *
  *     def __setattr__(self, name, value):             # <<<<<<<<<<<<<<
  *         if self.__is_dynamic_property(name):
  *             if self._allow_dynamic_properties:
@@ -11916,7 +11916,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":329
  *             super(JsonObjectBase, self).__setattr__(name, value)
- * 
+ *
  *     def __delitem__(self, key):             # <<<<<<<<<<<<<<
  *         if key in self._properties_by_key:
  *             raise DeleteNotAllowed(key)
@@ -11928,7 +11928,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":340
  *             super(JsonObjectBase, self).__delattr__(key)
- * 
+ *
  *     def __delattr__(self, name):             # <<<<<<<<<<<<<<
  *         if name in self._properties_by_attr:
  *             raise DeleteNotAllowed(name)
@@ -11940,7 +11940,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":348
  *             super(JsonObjectBase, self).__delattr__(name)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         name = self.__class__.__name__
  *         predefined_properties = self._properties_by_attr.keys()
@@ -11951,8 +11951,8 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__67 = (PyObject*)__Pyx_PyCode_New(1, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__66, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_pyx, __pyx_n_s_repr, 348, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__67)) __PYX_ERR(0, 348, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":365
- * 
- * 
+ *
+ *
  * class _LimitedDictInterfaceMixin(object):             # <<<<<<<<<<<<<<
  *     """
  *     mindlessly farms selected dict methods out to an internal dict
@@ -11963,10 +11963,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":376
  *     _wrapped = None
- * 
+ *
  *     def keys(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.keys()
- * 
+ *
  */
   __pyx_tuple__69 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__69)) __PYX_ERR(0, 376, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__69);
@@ -11975,10 +11975,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":379
  *         return self._wrapped.keys()
- * 
+ *
  *     def items(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.items()
- * 
+ *
  */
   __pyx_tuple__71 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__71)) __PYX_ERR(0, 379, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__71);
@@ -11987,10 +11987,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":382
  *         return self._wrapped.items()
- * 
+ *
  *     def iteritems(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.iteritems()
- * 
+ *
  */
   __pyx_tuple__73 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__73)) __PYX_ERR(0, 382, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__73);
@@ -11999,10 +11999,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":385
  *         return self._wrapped.iteritems()
- * 
+ *
  *     def __contains__(self, item):             # <<<<<<<<<<<<<<
  *         return item in self._wrapped
- * 
+ *
  */
   __pyx_tuple__75 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_item); if (unlikely(!__pyx_tuple__75)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__75);
@@ -12011,10 +12011,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":388
  *         return item in self._wrapped
- * 
+ *
  *     def __getitem__(self, item):             # <<<<<<<<<<<<<<
  *         return self._wrapped[item]
- * 
+ *
  */
   __pyx_tuple__77 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_item); if (unlikely(!__pyx_tuple__77)) __PYX_ERR(0, 388, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__77);
@@ -12023,10 +12023,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":391
  *         return self._wrapped[item]
- * 
+ *
  *     def __iter__(self):             # <<<<<<<<<<<<<<
  *         return iter(self._wrapped)
- * 
+ *
  */
   __pyx_tuple__79 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__79)) __PYX_ERR(0, 391, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__79);
@@ -12035,10 +12035,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base.pyx":394
  *         return iter(self._wrapped)
- * 
+ *
  *     def __len__(self):             # <<<<<<<<<<<<<<
  *         return len(self._wrapped)
- * 
+ *
  */
   __pyx_tuple__81 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__81)) __PYX_ERR(0, 394, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__81);
@@ -12046,8 +12046,8 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__82 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__81, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_pyx, __pyx_n_s_len, 394, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__82)) __PYX_ERR(0, 394, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":398
- * 
- * 
+ *
+ *
  * def get_dynamic_properties(obj):             # <<<<<<<<<<<<<<
  *     return getattr(obj, '_$').dynamic_properties.copy()
  */
@@ -12106,20 +12106,14 @@ static int __Pyx_modinit_type_init_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  if (PyType_Ready(&__pyx_type_10jsonobject_4base___pyx_scope_struct____repr__) < 0) __PYX_ERR(0, 348, __pyx_L1_error)
-  __pyx_type_10jsonobject_4base___pyx_scope_struct____repr__.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_10jsonobject_4base___pyx_scope_struct____repr__.tp_dictoffset && __pyx_type_10jsonobject_4base___pyx_scope_struct____repr__.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_10jsonobject_4base___pyx_scope_struct____repr__.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   __pyx_ptype_10jsonobject_4base___pyx_scope_struct____repr__ = &__pyx_type_10jsonobject_4base___pyx_scope_struct____repr__;
-  if (PyType_Ready(&__pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr) < 0) __PYX_ERR(0, 351, __pyx_L1_error)
-  __pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr.tp_dictoffset && __pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
   __pyx_ptype_10jsonobject_4base___pyx_scope_struct_1_genexpr = &__pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr;
-  if (PyType_Ready(&__pyx_type_10jsonobject_4base___pyx_scope_struct_2_genexpr) < 0) __PYX_ERR(0, 358, __pyx_L1_error)
-  __pyx_type_10jsonobject_4base___pyx_scope_struct_2_genexpr.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_10jsonobject_4base___pyx_scope_struct_2_genexpr.tp_dictoffset && __pyx_type_10jsonobject_4base___pyx_scope_struct_2_genexpr.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_10jsonobject_4base___pyx_scope_struct_2_genexpr.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
@@ -12462,7 +12456,7 @@ if (!__Pyx_RefNanny) {
  * )
  * from jsonobject.base_properties import JsonProperty, DefaultProperty             # <<<<<<<<<<<<<<
  * from jsonobject.utils import check_type
- * 
+ *
  */
   __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -12489,8 +12483,8 @@ if (!__Pyx_RefNanny) {
  * )
  * from jsonobject.base_properties import JsonProperty, DefaultProperty
  * from jsonobject.utils import check_type             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -12507,10 +12501,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":14
- * 
- * 
+ *
+ *
  * JsonObjectClassSettings = namedtuple('JsonObjectClassSettings', ['type_config'])             # <<<<<<<<<<<<<<
- * 
+ *
  * CLASS_SETTINGS_ATTR = '_$_class_settings'
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_namedtuple); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 14, __pyx_L1_error)
@@ -12537,16 +12531,16 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":16
  * JsonObjectClassSettings = namedtuple('JsonObjectClassSettings', ['type_config'])
- * 
+ *
  * CLASS_SETTINGS_ATTR = '_$_class_settings'             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_CLASS_SETTINGS_ATTR, __pyx_kp_s_class_settings) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":19
- * 
- * 
+ *
+ *
  * def get_settings(cls):             # <<<<<<<<<<<<<<
  *     return getattr(cls, CLASS_SETTINGS_ATTR,
  *                    JsonObjectClassSettings(type_config=TypeConfig()))
@@ -12557,11 +12551,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base.pyx":24
- * 
- * 
+ *
+ *
  * def set_settings(cls, settings):             # <<<<<<<<<<<<<<
  *     setattr(cls, CLASS_SETTINGS_ATTR, settings)
- * 
+ *
  */
   __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_10jsonobject_4base_3set_settings, NULL, __pyx_n_s_jsonobject_base); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -12569,8 +12563,8 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base.pyx":28
- * 
- * 
+ *
+ *
  * class TypeConfig(object):             # <<<<<<<<<<<<<<
  *     """
  *     This class allows the user to configure dynamic
@@ -12581,11 +12575,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_3);
 
   /* "jsonobject/base.pyx":63
- * 
+ *
  *     """
  *     def __init__(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         self._properties = properties if properties is not None else {}
- * 
+ *
  */
   __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_10TypeConfig_1__init__, 0, __pyx_n_s_TypeConfig___init, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -12595,7 +12589,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":74
  *         self.properties = self._properties
- * 
+ *
  *     def replace(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         return TypeConfig(
  *             properties=(properties if properties is not None
@@ -12608,7 +12602,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":82
  *         )
- * 
+ *
  *     def updated(self, properties=None, string_conversions=None):             # <<<<<<<<<<<<<<
  *         """
  *         update properties and string_conversions with the paramenters
@@ -12621,7 +12615,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":101
  *         )
- * 
+ *
  *     def _get_string_conversions(self):             # <<<<<<<<<<<<<<
  *         result = []
  *         for pattern, conversion in self._string_conversions.items():
@@ -12632,8 +12626,8 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":28
- * 
- * 
+ *
+ *
  * class TypeConfig(object):             # <<<<<<<<<<<<<<
  *     """
  *     This class allows the user to configure dynamic
@@ -12647,18 +12641,18 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":111
  *         return result
- * 
+ *
  * META_ATTRS = ('properties', 'string_conversions', 'update_properties')             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_META_ATTRS, __pyx_tuple__22) < 0) __PYX_ERR(0, 111, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":114
- * 
- * 
+ *
+ *
  * class JsonObjectMeta(type):             # <<<<<<<<<<<<<<
- * 
+ *
  *     class Meta(object):
  */
   __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 114, __pyx_L1_error)
@@ -12673,10 +12667,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":116
  * class JsonObjectMeta(type):
- * 
+ *
  *     class Meta(object):             # <<<<<<<<<<<<<<
  *         pass
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CalculateMetaclass(NULL, __pyx_tuple__23); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -12691,10 +12685,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":119
  *         pass
- * 
+ *
  *     def __new__(mcs, name, bases, dct):             # <<<<<<<<<<<<<<
  *         cls = super(JsonObjectMeta, mcs).__new__(mcs, name, bases, dct)
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_14JsonObjectMeta_1__new__, __Pyx_CYFUNCTION_STATICMETHOD, __pyx_n_s_JsonObjectMeta___new, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 119, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -12703,7 +12697,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":159
  *         return cls
- * 
+ *
  *     def __configure(cls, properties=None, string_conversions=None,             # <<<<<<<<<<<<<<
  *                     update_properties=None):
  *         super_settings = get_settings(super(cls, cls))
@@ -12715,10 +12709,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "jsonobject/base.pyx":114
- * 
- * 
+ *
+ *
  * class JsonObjectMeta(type):             # <<<<<<<<<<<<<<
- * 
+ *
  *     class Meta(object):
  */
   __pyx_t_4 = __Pyx_Py3ClassCreate(__pyx_t_3, __pyx_n_s_JsonObjectMeta, __pyx_t_2, __pyx_t_1, NULL, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 114, __pyx_L1_error)
@@ -12730,10 +12724,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base.pyx":176
- * 
- * 
+ *
+ *
  * class _JsonObjectPrivateInstanceVariables(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __init__(self, dynamic_properties=None):
  */
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_tuple__29); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 176, __pyx_L1_error)
@@ -12743,10 +12737,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":178
  * class _JsonObjectPrivateInstanceVariables(object):
- * 
+ *
  *     def __init__(self, dynamic_properties=None):             # <<<<<<<<<<<<<<
  *         self.dynamic_properties = dynamic_properties or {}
- * 
+ *
  */
   __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_35_JsonObjectPrivateInstanceVariables_1__init__, 0, __pyx_n_s_JsonObjectPrivateInstanceVariab_2, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 178, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -12755,10 +12749,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":176
- * 
- * 
+ *
+ *
  * class _JsonObjectPrivateInstanceVariables(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __init__(self, dynamic_properties=None):
  */
   __pyx_t_1 = __Pyx_Py3ClassCreate(__pyx_t_2, __pyx_n_s_JsonObjectPrivateInstanceVariab, __pyx_tuple__29, __pyx_t_3, NULL, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 176, __pyx_L1_error)
@@ -12769,10 +12763,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base.pyx":183
- * 
+ *
  * @six.add_metaclass(JsonObjectMeta)
  * class JsonObjectBase(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     _allow_dynamic_properties = True
  */
   __pyx_t_2 = __Pyx_CalculateMetaclass(NULL, __pyx_tuple__33); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 183, __pyx_L1_error)
@@ -12782,55 +12776,55 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":185
  * class JsonObjectBase(object):
- * 
+ *
  *     _allow_dynamic_properties = True             # <<<<<<<<<<<<<<
  *     _validate_required_lazily = False
- * 
+ *
  */
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_allow_dynamic_properties, Py_True) < 0) __PYX_ERR(0, 185, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":186
- * 
+ *
  *     _allow_dynamic_properties = True
  *     _validate_required_lazily = False             # <<<<<<<<<<<<<<
- * 
+ *
  *     _properties_by_attr = None
  */
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_validate_required_lazily, Py_False) < 0) __PYX_ERR(0, 186, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":188
  *     _validate_required_lazily = False
- * 
+ *
  *     _properties_by_attr = None             # <<<<<<<<<<<<<<
  *     _properties_by_key = None
- * 
+ *
  */
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_properties_by_attr, Py_None) < 0) __PYX_ERR(0, 188, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":189
- * 
+ *
  *     _properties_by_attr = None
  *     _properties_by_key = None             # <<<<<<<<<<<<<<
- * 
+ *
  *     _string_conversions = ()
  */
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_properties_by_key, Py_None) < 0) __PYX_ERR(0, 189, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":191
  *     _properties_by_key = None
- * 
+ *
  *     _string_conversions = ()             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __init__(self, _obj=None, **kwargs):
  */
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_string_conversions_2, __pyx_empty_tuple) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":193
  *     _string_conversions = ()
- * 
+ *
  *     def __init__(self, _obj=None, **kwargs):             # <<<<<<<<<<<<<<
  *         setattr(self, '_$', _JsonObjectPrivateInstanceVariables())
- * 
+ *
  */
   __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_14JsonObjectBase_1__init__, 0, __pyx_n_s_JsonObjectBase___init, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__35)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -12840,7 +12834,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":234
  *                 self[key] = d
- * 
+ *
  *     def set_raw_value(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped = self.__wrap(key, value)
  *         if key in self._properties_by_key:
@@ -12851,18 +12845,18 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":242
- * 
+ *
  *     @classmethod
  *     def properties(cls):             # <<<<<<<<<<<<<<
  *         return cls._properties_by_attr.copy()
- * 
+ *
  */
   __pyx_t_1 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_14JsonObjectBase_5properties, __Pyx_CYFUNCTION_CLASSMETHOD, __pyx_n_s_JsonObjectBase_properties, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
   /* "jsonobject/base.pyx":241
  *             setattr(self, key, wrapped)
- * 
+ *
  *     @classmethod             # <<<<<<<<<<<<<<
  *     def properties(cls):
  *         return cls._properties_by_attr.copy()
@@ -12874,18 +12868,18 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "jsonobject/base.pyx":246
- * 
+ *
  *     @property
  *     def __dynamic_properties(self):             # <<<<<<<<<<<<<<
  *         return getattr(self, '_$').dynamic_properties
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_14JsonObjectBase_7__dynamic_properties, 0, __pyx_n_s_JsonObjectBase___dynamic_propert, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 246, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
 
   /* "jsonobject/base.pyx":245
  *         return cls._properties_by_attr.copy()
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def __dynamic_properties(self):
  *         return getattr(self, '_$').dynamic_properties
@@ -12897,7 +12891,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base.pyx":250
- * 
+ *
  *     @classmethod
  *     def wrap(cls, obj):             # <<<<<<<<<<<<<<
  *         self = cls(obj)
@@ -12908,7 +12902,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":249
  *         return getattr(self, '_$').dynamic_properties
- * 
+ *
  *     @classmethod             # <<<<<<<<<<<<<<
  *     def wrap(cls, obj):
  *         self = cls(obj)
@@ -12921,7 +12915,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":254
  *         return self
- * 
+ *
  *     def validate(self, required=True):             # <<<<<<<<<<<<<<
  *         for key, value in self._wrapped.items():
  *             self.__get_property(key).validate(value, required=required)
@@ -12934,7 +12928,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":258
  *             self.__get_property(key).validate(value, required=required)
- * 
+ *
  *     def to_json(self):             # <<<<<<<<<<<<<<
  *         self.validate()
  *         return copy.deepcopy(self._obj)
@@ -12946,7 +12940,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":262
  *         return copy.deepcopy(self._obj)
- * 
+ *
  *     def __get_property(self, key):             # <<<<<<<<<<<<<<
  *         try:
  *             return self._properties_by_key[key]
@@ -12958,10 +12952,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":268
  *             return DefaultProperty(type_config=get_settings(self).type_config)
- * 
+ *
  *     def __wrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_14JsonObjectBase_17__wrap, 0, __pyx_n_s_JsonObjectBase___wrap, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 268, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -12970,7 +12964,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":276
  *         return property_.wrap(value)
- * 
+ *
  *     def __unwrap(self, key, value):             # <<<<<<<<<<<<<<
  *         property_ = self.__get_property(key)
  *         if value is None:
@@ -12982,7 +12976,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":298
  *         return wrapped, unwrapped
- * 
+ *
  *     def __setitem__(self, key, value):             # <<<<<<<<<<<<<<
  *         wrapped, unwrapped = self.__unwrap(key, value)
  *         self._wrapped[key] = wrapped
@@ -12994,7 +12988,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":310
  *             super(JsonObjectBase, self).__setattr__(key, wrapped)
- * 
+ *
  *     def __is_dynamic_property(self, name):             # <<<<<<<<<<<<<<
  *         return (
  *             name not in self._properties_by_attr and
@@ -13006,7 +13000,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":317
  *         )
- * 
+ *
  *     def __setattr__(self, name, value):             # <<<<<<<<<<<<<<
  *         if self.__is_dynamic_property(name):
  *             if self._allow_dynamic_properties:
@@ -13018,7 +13012,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":329
  *             super(JsonObjectBase, self).__setattr__(name, value)
- * 
+ *
  *     def __delitem__(self, key):             # <<<<<<<<<<<<<<
  *         if key in self._properties_by_key:
  *             raise DeleteNotAllowed(key)
@@ -13030,7 +13024,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":340
  *             super(JsonObjectBase, self).__delattr__(key)
- * 
+ *
  *     def __delattr__(self, name):             # <<<<<<<<<<<<<<
  *         if name in self._properties_by_attr:
  *             raise DeleteNotAllowed(name)
@@ -13042,7 +13036,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":348
  *             super(JsonObjectBase, self).__delattr__(name)
- * 
+ *
  *     def __repr__(self):             # <<<<<<<<<<<<<<
  *         name = self.__class__.__name__
  *         predefined_properties = self._properties_by_attr.keys()
@@ -13053,11 +13047,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "jsonobject/base.pyx":182
- * 
- * 
+ *
+ *
  * @six.add_metaclass(JsonObjectMeta)             # <<<<<<<<<<<<<<
  * class JsonObjectBase(object):
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_six); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 182, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
@@ -13084,10 +13078,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
   /* "jsonobject/base.pyx":183
- * 
+ *
  * @six.add_metaclass(JsonObjectMeta)
  * class JsonObjectBase(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     _allow_dynamic_properties = True
  */
   __pyx_t_6 = __Pyx_Py3ClassCreate(__pyx_t_2, __pyx_n_s_JsonObjectBase, __pyx_tuple__33, __pyx_t_3, NULL, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 183, __pyx_L1_error)
@@ -13114,8 +13108,8 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base.pyx":365
- * 
- * 
+ *
+ *
  * class _LimitedDictInterfaceMixin(object):             # <<<<<<<<<<<<<<
  *     """
  *     mindlessly farms selected dict methods out to an internal dict
@@ -13126,20 +13120,20 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_3);
 
   /* "jsonobject/base.pyx":374
- * 
+ *
  *     """
  *     _wrapped = None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def keys(self):
  */
   if (__Pyx_SetNameInClass(__pyx_t_3, __pyx_n_s_wrapped, Py_None) < 0) __PYX_ERR(0, 374, __pyx_L1_error)
 
   /* "jsonobject/base.pyx":376
  *     _wrapped = None
- * 
+ *
  *     def keys(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.keys()
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_26_LimitedDictInterfaceMixin_1keys, 0, __pyx_n_s_LimitedDictInterfaceMixin_keys, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 376, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -13148,10 +13142,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":379
  *         return self._wrapped.keys()
- * 
+ *
  *     def items(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.items()
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_26_LimitedDictInterfaceMixin_3items, 0, __pyx_n_s_LimitedDictInterfaceMixin_items, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__72)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 379, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -13160,10 +13154,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":382
  *         return self._wrapped.items()
- * 
+ *
  *     def iteritems(self):             # <<<<<<<<<<<<<<
  *         return self._wrapped.iteritems()
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_26_LimitedDictInterfaceMixin_5iteritems, 0, __pyx_n_s_LimitedDictInterfaceMixin_iteri, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__74)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 382, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -13172,10 +13166,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":385
  *         return self._wrapped.iteritems()
- * 
+ *
  *     def __contains__(self, item):             # <<<<<<<<<<<<<<
  *         return item in self._wrapped
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_26_LimitedDictInterfaceMixin_7__contains__, 0, __pyx_n_s_LimitedDictInterfaceMixin___con, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 385, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -13184,10 +13178,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":388
  *         return item in self._wrapped
- * 
+ *
  *     def __getitem__(self, item):             # <<<<<<<<<<<<<<
  *         return self._wrapped[item]
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_26_LimitedDictInterfaceMixin_9__getitem__, 0, __pyx_n_s_LimitedDictInterfaceMixin___get, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__78)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 388, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -13196,10 +13190,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":391
  *         return self._wrapped[item]
- * 
+ *
  *     def __iter__(self):             # <<<<<<<<<<<<<<
  *         return iter(self._wrapped)
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_26_LimitedDictInterfaceMixin_11__iter__, 0, __pyx_n_s_LimitedDictInterfaceMixin___ite, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__80)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 391, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -13208,10 +13202,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base.pyx":394
  *         return iter(self._wrapped)
- * 
+ *
  *     def __len__(self):             # <<<<<<<<<<<<<<
  *         return len(self._wrapped)
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_4base_26_LimitedDictInterfaceMixin_13__len__, 0, __pyx_n_s_LimitedDictInterfaceMixin___len, NULL, __pyx_n_s_jsonobject_base, __pyx_d, ((PyObject *)__pyx_codeobj__82)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 394, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -13219,8 +13213,8 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "jsonobject/base.pyx":365
- * 
- * 
+ *
+ *
  * class _LimitedDictInterfaceMixin(object):             # <<<<<<<<<<<<<<
  *     """
  *     mindlessly farms selected dict methods out to an internal dict
@@ -13233,8 +13227,8 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base.pyx":398
- * 
- * 
+ *
+ *
  * def get_dynamic_properties(obj):             # <<<<<<<<<<<<<<
  *     return getattr(obj, '_$').dynamic_properties.copy()
  */

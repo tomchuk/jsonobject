@@ -3,11 +3,11 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "jsonobject.base_properties", 
+        "name": "jsonobject.base_properties",
         "sources": [
             "jsonobject/base_properties.pyx"
         ]
-    }, 
+    },
     "module_name": "jsonobject.base_properties"
 }
 END: Cython Metadata */
@@ -816,7 +816,7 @@ struct __pyx_obj_10jsonobject_15base_properties___pyx_scope_struct____init__;
 
 /* "jsonobject/base_properties.pyx":20
  *     type_config = None
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,             # <<<<<<<<<<<<<<
  *                  required=False, exclude_if_none=False, validators=None,
  *                  verbose_name=None, type_config=None):
@@ -1844,7 +1844,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_function_name(CYTHON_UN
  * else:
  *     def function_name(f):             # <<<<<<<<<<<<<<
  *         return f.func_name
- * 
+ *
  */
 
 /* Python wrapper */
@@ -1871,8 +1871,8 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_2function_name(CYTHON_U
  * else:
  *     def function_name(f):
  *         return f.func_name             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_f, __pyx_n_s_func_name); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 12, __pyx_L1_error)
@@ -1886,7 +1886,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_2function_name(CYTHON_U
  * else:
  *     def function_name(f):             # <<<<<<<<<<<<<<
  *         return f.func_name
- * 
+ *
  */
 
   /* function exit code */
@@ -1902,7 +1902,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_2function_name(CYTHON_U
 
 /* "jsonobject/base_properties.pyx":20
  *     type_config = None
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,             # <<<<<<<<<<<<<<
  *                  required=False, exclude_if_none=False, validators=None,
  *                  verbose_name=None, type_config=None):
@@ -1932,7 +1932,7 @@ static PyObject *__pyx_pw_10jsonobject_15base_properties_12JsonProperty_1__init_
     values[3] = ((PyObject *)((PyObject *)Py_None));
 
     /* "jsonobject/base_properties.pyx":21
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,
  *                  required=False, exclude_if_none=False, validators=None,             # <<<<<<<<<<<<<<
  *                  verbose_name=None, type_config=None):
@@ -2078,7 +2078,7 @@ static PyObject *__pyx_pw_10jsonobject_15base_properties_12JsonProperty_1__init_
 
   /* "jsonobject/base_properties.pyx":20
  *     type_config = None
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,             # <<<<<<<<<<<<<<
  *                  required=False, exclude_if_none=False, validators=None,
  *                  verbose_name=None, type_config=None):
@@ -2137,7 +2137,7 @@ static PyObject *__pyx_lambda_funcdef_lambda(PyObject *__pyx_self) {
 
 /* "jsonobject/base_properties.pyx":20
  *     type_config = None
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,             # <<<<<<<<<<<<<<
  *                  required=False, exclude_if_none=False, validators=None,
  *                  verbose_name=None, type_config=None):
@@ -2371,7 +2371,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty___init__
  *                     choice, _ = choice
  *                 self.choice_keys.append(choice)
  */
-      __pyx_t_2 = PyTuple_Check(__pyx_v_choice); 
+      __pyx_t_2 = PyTuple_Check(__pyx_v_choice);
       __pyx_t_3 = (__pyx_t_2 != 0);
       if (__pyx_t_3) {
 
@@ -2392,11 +2392,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty___init__
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
           if (likely(PyTuple_CheckExact(sequence))) {
-            __pyx_t_6 = PyTuple_GET_ITEM(sequence, 0); 
-            __pyx_t_7 = PyTuple_GET_ITEM(sequence, 1); 
+            __pyx_t_6 = PyTuple_GET_ITEM(sequence, 0);
+            __pyx_t_7 = PyTuple_GET_ITEM(sequence, 1);
           } else {
-            __pyx_t_6 = PyList_GET_ITEM(sequence, 0); 
-            __pyx_t_7 = PyList_GET_ITEM(sequence, 1); 
+            __pyx_t_6 = PyList_GET_ITEM(sequence, 0);
+            __pyx_t_7 = PyList_GET_ITEM(sequence, 1);
           }
           __Pyx_INCREF(__pyx_t_6);
           __Pyx_INCREF(__pyx_t_7);
@@ -2512,7 +2512,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty___init__
  *         self.verbose_name = verbose_name
  *         if type_config:             # <<<<<<<<<<<<<<
  *             self.type_config = type_config
- * 
+ *
  */
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_type_config); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 42, __pyx_L1_error)
   if (__pyx_t_3) {
@@ -2521,7 +2521,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty___init__
  *         self.verbose_name = verbose_name
  *         if type_config:
  *             self.type_config = type_config             # <<<<<<<<<<<<<<
- * 
+ *
  *     def init_property(self, default_name, type_config):
  */
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_type_config, __pyx_v_type_config) < 0) __PYX_ERR(0, 43, __pyx_L1_error)
@@ -2531,13 +2531,13 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty___init__
  *         self.verbose_name = verbose_name
  *         if type_config:             # <<<<<<<<<<<<<<
  *             self.type_config = type_config
- * 
+ *
  */
   }
 
   /* "jsonobject/base_properties.pyx":20
  *     type_config = None
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,             # <<<<<<<<<<<<<<
  *                  required=False, exclude_if_none=False, validators=None,
  *                  verbose_name=None, type_config=None):
@@ -2565,7 +2565,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty___init__
 
 /* "jsonobject/base_properties.pyx":45
  *             self.type_config = type_config
- * 
+ *
  *     def init_property(self, default_name, type_config):             # <<<<<<<<<<<<<<
  *         self.name = self.name or default_name
  *         self.type_config = self.type_config or type_config
@@ -2653,11 +2653,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_2init_pr
   __Pyx_RefNannySetupContext("init_property", 0);
 
   /* "jsonobject/base_properties.pyx":46
- * 
+ *
  *     def init_property(self, default_name, type_config):
  *         self.name = self.name or default_name             # <<<<<<<<<<<<<<
  *         self.type_config = self.type_config or type_config
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_name_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 46, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -2680,7 +2680,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_2init_pr
  *     def init_property(self, default_name, type_config):
  *         self.name = self.name or default_name
  *         self.type_config = self.type_config or type_config             # <<<<<<<<<<<<<<
- * 
+ *
  *     def wrap(self, obj):
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_type_config); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 47, __pyx_L1_error)
@@ -2702,7 +2702,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_2init_pr
 
   /* "jsonobject/base_properties.pyx":45
  *             self.type_config = type_config
- * 
+ *
  *     def init_property(self, default_name, type_config):             # <<<<<<<<<<<<<<
  *         self.name = self.name or default_name
  *         self.type_config = self.type_config or type_config
@@ -2724,10 +2724,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_2init_pr
 
 /* "jsonobject/base_properties.pyx":49
  *         self.type_config = self.type_config or type_config
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
 
 /* Python wrapper */
@@ -2799,10 +2799,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_4wrap(CY
   __Pyx_RefNannySetupContext("wrap", 0);
 
   /* "jsonobject/base_properties.pyx":50
- * 
+ *
  *     def wrap(self, obj):
  *         raise NotImplementedError()             # <<<<<<<<<<<<<<
- * 
+ *
  *     def unwrap(self, obj):
  */
   __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
@@ -2813,10 +2813,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_4wrap(CY
 
   /* "jsonobject/base_properties.pyx":49
  *         self.type_config = self.type_config or type_config
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
 
   /* function exit code */
@@ -2831,7 +2831,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_4wrap(CY
 
 /* "jsonobject/base_properties.pyx":52
  *         raise NotImplementedError()
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         """
  *         must return tuple of (wrapped, unwrapped)
@@ -2907,10 +2907,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_6unwrap(
   __Pyx_RefNannySetupContext("unwrap", 0);
 
   /* "jsonobject/base_properties.pyx":62
- * 
+ *
  *         """
  *         raise NotImplementedError()             # <<<<<<<<<<<<<<
- * 
+ *
  *     def to_json(self, value):
  */
   __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 62, __pyx_L1_error)
@@ -2921,7 +2921,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_6unwrap(
 
   /* "jsonobject/base_properties.pyx":52
  *         raise NotImplementedError()
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         """
  *         must return tuple of (wrapped, unwrapped)
@@ -2939,7 +2939,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_6unwrap(
 
 /* "jsonobject/base_properties.pyx":64
  *         raise NotImplementedError()
- * 
+ *
  *     def to_json(self, value):             # <<<<<<<<<<<<<<
  *         _, unwrapped = self.unwrap(value)
  *         return unwrapped
@@ -3020,11 +3020,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_8to_json
   __Pyx_RefNannySetupContext("to_json", 0);
 
   /* "jsonobject/base_properties.pyx":65
- * 
+ *
  *     def to_json(self, value):
  *         _, unwrapped = self.unwrap(value)             # <<<<<<<<<<<<<<
  *         return unwrapped
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_unwrap); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3053,11 +3053,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_8to_json
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
     } else {
-      __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
     }
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_t_3);
@@ -3098,7 +3098,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_8to_json
  *     def to_json(self, value):
  *         _, unwrapped = self.unwrap(value)
  *         return unwrapped             # <<<<<<<<<<<<<<
- * 
+ *
  *     def to_python(self, value):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3108,7 +3108,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_8to_json
 
   /* "jsonobject/base_properties.pyx":64
  *         raise NotImplementedError()
- * 
+ *
  *     def to_json(self, value):             # <<<<<<<<<<<<<<
  *         _, unwrapped = self.unwrap(value)
  *         return unwrapped
@@ -3132,10 +3132,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_8to_json
 
 /* "jsonobject/base_properties.pyx":68
  *         return unwrapped
- * 
+ *
  *     def to_python(self, value):             # <<<<<<<<<<<<<<
  *         return self.wrap(value)
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3209,10 +3209,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_10to_pyt
   __Pyx_RefNannySetupContext("to_python", 0);
 
   /* "jsonobject/base_properties.pyx":69
- * 
+ *
  *     def to_python(self, value):
  *         return self.wrap(value)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __get__(self, instance, owner):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3239,10 +3239,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_10to_pyt
 
   /* "jsonobject/base_properties.pyx":68
  *         return unwrapped
- * 
+ *
  *     def to_python(self, value):             # <<<<<<<<<<<<<<
  *         return self.wrap(value)
- * 
+ *
  */
 
   /* function exit code */
@@ -3260,7 +3260,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_10to_pyt
 
 /* "jsonobject/base_properties.pyx":71
  *         return self.wrap(value)
- * 
+ *
  *     def __get__(self, instance, owner):             # <<<<<<<<<<<<<<
  *         if instance:
  *             assert self.name in instance
@@ -3348,7 +3348,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_12__get_
   __Pyx_RefNannySetupContext("__get__", 0);
 
   /* "jsonobject/base_properties.pyx":72
- * 
+ *
  *     def __get__(self, instance, owner):
  *         if instance:             # <<<<<<<<<<<<<<
  *             assert self.name in instance
@@ -3395,7 +3395,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_12__get_
     goto __pyx_L0;
 
     /* "jsonobject/base_properties.pyx":72
- * 
+ *
  *     def __get__(self, instance, owner):
  *         if instance:             # <<<<<<<<<<<<<<
  *             assert self.name in instance
@@ -3407,7 +3407,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_12__get_
  *             return instance[self.name]
  *         else:
  *             return self             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __set__(self, instance, value):
  */
   /*else*/ {
@@ -3419,7 +3419,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_12__get_
 
   /* "jsonobject/base_properties.pyx":71
  *         return self.wrap(value)
- * 
+ *
  *     def __get__(self, instance, owner):             # <<<<<<<<<<<<<<
  *         if instance:
  *             assert self.name in instance
@@ -3439,10 +3439,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_12__get_
 
 /* "jsonobject/base_properties.pyx":78
  *             return self
- * 
+ *
  *     def __set__(self, instance, value):             # <<<<<<<<<<<<<<
  *         instance[self.name] = value
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3525,10 +3525,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_14__set_
   __Pyx_RefNannySetupContext("__set__", 0);
 
   /* "jsonobject/base_properties.pyx":79
- * 
+ *
  *     def __set__(self, instance, value):
  *         instance[self.name] = value             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __call__(self, method):
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_name_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 79, __pyx_L1_error)
@@ -3538,10 +3538,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_14__set_
 
   /* "jsonobject/base_properties.pyx":78
  *             return self
- * 
+ *
  *     def __set__(self, instance, value):             # <<<<<<<<<<<<<<
  *         instance[self.name] = value
- * 
+ *
  */
 
   /* function exit code */
@@ -3559,7 +3559,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_14__set_
 
 /* "jsonobject/base_properties.pyx":81
  *         instance[self.name] = value
- * 
+ *
  *     def __call__(self, method):             # <<<<<<<<<<<<<<
  *         """
  *         use a property as a decorator to set its default value
@@ -3687,7 +3687,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_16__call
  *         self.default = method
  *         self.name = self.name or function_name(method)             # <<<<<<<<<<<<<<
  *         return self
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_name_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3728,7 +3728,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_16__call
  *         self.default = method
  *         self.name = self.name or function_name(method)
  *         return self             # <<<<<<<<<<<<<<
- * 
+ *
  *     def exclude(self, value):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3738,7 +3738,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_16__call
 
   /* "jsonobject/base_properties.pyx":81
  *         instance[self.name] = value
- * 
+ *
  *     def __call__(self, method):             # <<<<<<<<<<<<<<
  *         """
  *         use a property as a decorator to set its default value
@@ -3760,10 +3760,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_16__call
 
 /* "jsonobject/base_properties.pyx":95
  *         return self
- * 
+ *
  *     def exclude(self, value):             # <<<<<<<<<<<<<<
  *         return self.exclude_if_none and not value
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3838,10 +3838,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_18exclud
   __Pyx_RefNannySetupContext("exclude", 0);
 
   /* "jsonobject/base_properties.pyx":96
- * 
+ *
  *     def exclude(self, value):
  *         return self.exclude_if_none and not value             # <<<<<<<<<<<<<<
- * 
+ *
  *     def empty(self, value):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3869,10 +3869,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_18exclud
 
   /* "jsonobject/base_properties.pyx":95
  *         return self
- * 
+ *
  *     def exclude(self, value):             # <<<<<<<<<<<<<<
  *         return self.exclude_if_none and not value
- * 
+ *
  */
 
   /* function exit code */
@@ -3889,10 +3889,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_18exclud
 
 /* "jsonobject/base_properties.pyx":98
  *         return self.exclude_if_none and not value
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return value is None
- * 
+ *
  */
 
 /* Python wrapper */
@@ -3965,10 +3965,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_20empty(
   __Pyx_RefNannySetupContext("empty", 0);
 
   /* "jsonobject/base_properties.pyx":99
- * 
+ *
  *     def empty(self, value):
  *         return value is None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -3981,10 +3981,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_20empty(
 
   /* "jsonobject/base_properties.pyx":98
  *         return self.exclude_if_none and not value
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return value is None
- * 
+ *
  */
 
   /* function exit code */
@@ -4000,7 +4000,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_20empty(
 
 /* "jsonobject/base_properties.pyx":101
  *         return value is None
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):             # <<<<<<<<<<<<<<
  *         if (self.choice_keys and value not in self.choice_keys
  *                 and value is not None):
@@ -4113,7 +4113,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
   __Pyx_RefNannySetupContext("validate", 0);
 
   /* "jsonobject/base_properties.pyx":102
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):
  *         if (self.choice_keys and value not in self.choice_keys             # <<<<<<<<<<<<<<
  *                 and value is not None):
@@ -4142,7 +4142,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base_properties.pyx":102
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):
  *         if (self.choice_keys and value not in self.choice_keys             # <<<<<<<<<<<<<<
  *                 and value is not None):
@@ -4168,7 +4168,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
   __pyx_L4_bool_binop_done:;
 
   /* "jsonobject/base_properties.pyx":102
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):
  *         if (self.choice_keys and value not in self.choice_keys             # <<<<<<<<<<<<<<
  *                 and value is not None):
@@ -4191,7 +4191,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
  *             raise BadValueError(
  *                 '{0!r} not in choices: {1!r}'.format(value, self.choice_keys)             # <<<<<<<<<<<<<<
  *             )
- * 
+ *
  */
     __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_0_r_not_in_choices_1_r, __pyx_n_s_format); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 105, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
@@ -4265,7 +4265,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
     __PYX_ERR(0, 104, __pyx_L1_error)
 
     /* "jsonobject/base_properties.pyx":102
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):
  *         if (self.choice_keys and value not in self.choice_keys             # <<<<<<<<<<<<<<
  *                 and value is not None):
@@ -4275,7 +4275,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
 
   /* "jsonobject/base_properties.pyx":108
  *             )
- * 
+ *
  *         if not self.empty(value):             # <<<<<<<<<<<<<<
  *             self._custom_validate(value)
  *         elif required and self.required:
@@ -4303,7 +4303,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
   if (__pyx_t_3) {
 
     /* "jsonobject/base_properties.pyx":109
- * 
+ *
  *         if not self.empty(value):
  *             self._custom_validate(value)             # <<<<<<<<<<<<<<
  *         elif required and self.required:
@@ -4330,7 +4330,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
 
     /* "jsonobject/base_properties.pyx":108
  *             )
- * 
+ *
  *         if not self.empty(value):             # <<<<<<<<<<<<<<
  *             self._custom_validate(value)
  *         elif required and self.required:
@@ -4431,7 +4431,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
  *             )
  *         if recursive and hasattr(value, 'validate'):             # <<<<<<<<<<<<<<
  *             value.validate(required=required)
- * 
+ *
  */
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_recursive); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 114, __pyx_L1_error)
   if (__pyx_t_1) {
@@ -4449,7 +4449,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
  *             )
  *         if recursive and hasattr(value, 'validate'):
  *             value.validate(required=required)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def _custom_validate(self, value):
  */
     __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_value, __pyx_n_s_validate); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 115, __pyx_L1_error)
@@ -4468,13 +4468,13 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
  *             )
  *         if recursive and hasattr(value, 'validate'):             # <<<<<<<<<<<<<<
  *             value.validate(required=required)
- * 
+ *
  */
   }
 
   /* "jsonobject/base_properties.pyx":101
  *         return value is None
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):             # <<<<<<<<<<<<<<
  *         if (self.choice_keys and value not in self.choice_keys
  *                 and value is not None):
@@ -4501,7 +4501,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_22valida
 
 /* "jsonobject/base_properties.pyx":117
  *             value.validate(required=required)
- * 
+ *
  *     def _custom_validate(self, value):             # <<<<<<<<<<<<<<
  *         if self._validators:
  *             if hasattr(self._validators, '__iter__'):
@@ -4584,7 +4584,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_24_custo
   __Pyx_RefNannySetupContext("_custom_validate", 0);
 
   /* "jsonobject/base_properties.pyx":118
- * 
+ *
  *     def _custom_validate(self, value):
  *         if self._validators:             # <<<<<<<<<<<<<<
  *             if hasattr(self._validators, '__iter__'):
@@ -4711,8 +4711,8 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_24_custo
  *                     validator(value)
  *             else:
  *                 self._validators(value)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
     /*else*/ {
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_validators_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 123, __pyx_L1_error)
@@ -4737,7 +4737,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_24_custo
     __pyx_L4:;
 
     /* "jsonobject/base_properties.pyx":118
- * 
+ *
  *     def _custom_validate(self, value):
  *         if self._validators:             # <<<<<<<<<<<<<<
  *             if hasattr(self._validators, '__iter__'):
@@ -4747,7 +4747,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_24_custo
 
   /* "jsonobject/base_properties.pyx":117
  *             value.validate(required=required)
- * 
+ *
  *     def _custom_validate(self, value):             # <<<<<<<<<<<<<<
  *         if self._validators:
  *             if hasattr(self._validators, '__iter__'):
@@ -4772,7 +4772,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_12JsonProperty_24_custo
 
 /* "jsonobject/base_properties.pyx":131
  *     container_class = None
- * 
+ *
  *     def __init__(self, item_type=None, **kwargs):             # <<<<<<<<<<<<<<
  *         self._item_type_deferred = item_type
  *         super(JsonContainerProperty, self).__init__(**kwargs)
@@ -4857,11 +4857,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_RefNannySetupContext("__init__", 0);
 
   /* "jsonobject/base_properties.pyx":132
- * 
+ *
  *     def __init__(self, item_type=None, **kwargs):
  *         self._item_type_deferred = item_type             # <<<<<<<<<<<<<<
  *         super(JsonContainerProperty, self).__init__(**kwargs)
- * 
+ *
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_item_type_deferred, __pyx_v_item_type) < 0) __PYX_ERR(0, 132, __pyx_L1_error)
 
@@ -4869,7 +4869,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *     def __init__(self, item_type=None, **kwargs):
  *         self._item_type_deferred = item_type
  *         super(JsonContainerProperty, self).__init__(**kwargs)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def init_property(self, **kwargs):
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_JsonContainerProperty); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
@@ -4895,7 +4895,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
   /* "jsonobject/base_properties.pyx":131
  *     container_class = None
- * 
+ *
  *     def __init__(self, item_type=None, **kwargs):             # <<<<<<<<<<<<<<
  *         self._item_type_deferred = item_type
  *         super(JsonContainerProperty, self).__init__(**kwargs)
@@ -4917,7 +4917,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
 /* "jsonobject/base_properties.pyx":135
  *         super(JsonContainerProperty, self).__init__(**kwargs)
- * 
+ *
  *     def init_property(self, **kwargs):             # <<<<<<<<<<<<<<
  *         super(JsonContainerProperty, self).init_property(**kwargs)
  *         if not inspect.isfunction(self._item_type_deferred):
@@ -4991,7 +4991,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_RefNannySetupContext("init_property", 0);
 
   /* "jsonobject/base_properties.pyx":136
- * 
+ *
  *     def init_property(self, **kwargs):
  *         super(JsonContainerProperty, self).init_property(**kwargs)             # <<<<<<<<<<<<<<
  *         if not inspect.isfunction(self._item_type_deferred):
@@ -5057,7 +5057,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *         if not inspect.isfunction(self._item_type_deferred):
  *             # trigger validation
  *             self.item_wrapper             # <<<<<<<<<<<<<<
- * 
+ *
  *     def to_item_wrapper(self, item_type):
  */
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_item_wrapper); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 139, __pyx_L1_error)
@@ -5075,7 +5075,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
   /* "jsonobject/base_properties.pyx":135
  *         super(JsonContainerProperty, self).__init__(**kwargs)
- * 
+ *
  *     def init_property(self, **kwargs):             # <<<<<<<<<<<<<<
  *         super(JsonContainerProperty, self).init_property(**kwargs)
  *         if not inspect.isfunction(self._item_type_deferred):
@@ -5099,7 +5099,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
 /* "jsonobject/base_properties.pyx":141
  *             self.item_wrapper
- * 
+ *
  *     def to_item_wrapper(self, item_type):             # <<<<<<<<<<<<<<
  *         from jsonobject.base import JsonObjectMeta
  *         from .properties import ObjectProperty
@@ -5189,7 +5189,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_RefNannySetupContext("to_item_wrapper", 0);
 
   /* "jsonobject/base_properties.pyx":142
- * 
+ *
  *     def to_item_wrapper(self, item_type):
  *         from jsonobject.base import JsonObjectMeta             # <<<<<<<<<<<<<<
  *         from .properties import ObjectProperty
@@ -5573,11 +5573,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
         if (likely(PyTuple_CheckExact(sequence))) {
-          __pyx_t_5 = PyTuple_GET_ITEM(sequence, 0); 
-          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1); 
+          __pyx_t_5 = PyTuple_GET_ITEM(sequence, 0);
+          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1);
         } else {
-          __pyx_t_5 = PyList_GET_ITEM(sequence, 0); 
-          __pyx_t_8 = PyList_GET_ITEM(sequence, 1); 
+          __pyx_t_5 = PyList_GET_ITEM(sequence, 0);
+          __pyx_t_8 = PyList_GET_ITEM(sequence, 1);
         }
         __Pyx_INCREF(__pyx_t_5);
         __Pyx_INCREF(__pyx_t_8);
@@ -5682,7 +5682,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *                 item_type,
  *                 self.type_config.properties,             # <<<<<<<<<<<<<<
  *             ))
- * 
+ *
  */
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_type_config); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 163, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -5754,7 +5754,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
   /* "jsonobject/base_properties.pyx":141
  *             self.item_wrapper
- * 
+ *
  *     def to_item_wrapper(self, item_type):             # <<<<<<<<<<<<<<
  *         from jsonobject.base import JsonObjectMeta
  *         from .properties import ObjectProperty
@@ -5781,7 +5781,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 }
 
 /* "jsonobject/base_properties.pyx":167
- * 
+ *
  *     @property
  *     def item_wrapper(self):             # <<<<<<<<<<<<<<
  *         if hasattr(self, '_item_type_deferred'):
@@ -5952,7 +5952,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *                 self._item_wrapper = self.to_item_wrapper(self._item_type_deferred)
  *             del self._item_type_deferred             # <<<<<<<<<<<<<<
  *         return self._item_wrapper
- * 
+ *
  */
     if (__Pyx_PyObject_DelAttrStr(__pyx_v_self, __pyx_n_s_item_type_deferred) < 0) __PYX_ERR(0, 173, __pyx_L1_error)
 
@@ -5969,7 +5969,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *                 self._item_wrapper = self.to_item_wrapper(self._item_type_deferred)
  *             del self._item_type_deferred
  *         return self._item_wrapper             # <<<<<<<<<<<<<<
- * 
+ *
  *     def empty(self, value):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -5980,7 +5980,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   goto __pyx_L0;
 
   /* "jsonobject/base_properties.pyx":167
- * 
+ *
  *     @property
  *     def item_wrapper(self):             # <<<<<<<<<<<<<<
  *         if hasattr(self, '_item_type_deferred'):
@@ -6004,10 +6004,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
 /* "jsonobject/base_properties.pyx":176
  *         return self._item_wrapper
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return not value
- * 
+ *
  */
 
 /* Python wrapper */
@@ -6080,10 +6080,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_RefNannySetupContext("empty", 0);
 
   /* "jsonobject/base_properties.pyx":177
- * 
+ *
  *     def empty(self, value):
  *         return not value             # <<<<<<<<<<<<<<
- * 
+ *
  *     def wrap(self, obj):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -6096,10 +6096,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
   /* "jsonobject/base_properties.pyx":176
  *         return self._item_wrapper
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return not value
- * 
+ *
  */
 
   /* function exit code */
@@ -6115,7 +6115,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
 /* "jsonobject/base_properties.pyx":179
  *         return not value
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         return self.container_class(obj, wrapper=self.item_wrapper,
  *                                     type_config=self.type_config)
@@ -6193,11 +6193,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_RefNannySetupContext("wrap", 0);
 
   /* "jsonobject/base_properties.pyx":180
- * 
+ *
  *     def wrap(self, obj):
  *         return self.container_class(obj, wrapper=self.item_wrapper,             # <<<<<<<<<<<<<<
  *                                     type_config=self.type_config)
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_container_class); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 180, __pyx_L1_error)
@@ -6218,7 +6218,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *     def wrap(self, obj):
  *         return self.container_class(obj, wrapper=self.item_wrapper,
  *                                     type_config=self.type_config)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def unwrap(self, obj):
  */
   __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_type_config); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 181, __pyx_L1_error)
@@ -6227,11 +6227,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "jsonobject/base_properties.pyx":180
- * 
+ *
  *     def wrap(self, obj):
  *         return self.container_class(obj, wrapper=self.item_wrapper,             # <<<<<<<<<<<<<<
  *                                     type_config=self.type_config)
- * 
+ *
  */
   __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 180, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -6244,7 +6244,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
   /* "jsonobject/base_properties.pyx":179
  *         return not value
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         return self.container_class(obj, wrapper=self.item_wrapper,
  *                                     type_config=self.type_config)
@@ -6266,7 +6266,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
 /* "jsonobject/base_properties.pyx":183
  *                                     type_config=self.type_config)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError(
@@ -6351,7 +6351,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_RefNannySetupContext("unwrap", 0);
 
   /* "jsonobject/base_properties.pyx":184
- * 
+ *
  *     def unwrap(self, obj):
  *         if not isinstance(obj, self._type):             # <<<<<<<<<<<<<<
  *             raise BadValueError(
@@ -6464,7 +6464,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
     __PYX_ERR(0, 185, __pyx_L1_error)
 
     /* "jsonobject/base_properties.pyx":184
- * 
+ *
  *     def unwrap(self, obj):
  *         if not isinstance(obj, self._type):             # <<<<<<<<<<<<<<
  *             raise BadValueError(
@@ -6568,7 +6568,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *             wrapped = self.wrap(self._type())
  *             self._update(wrapped, obj)             # <<<<<<<<<<<<<<
  *             return self.unwrap(wrapped)
- * 
+ *
  */
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_update); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 193, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
@@ -6623,7 +6623,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
  *             wrapped = self.wrap(self._type())
  *             self._update(wrapped, obj)
  *             return self.unwrap(wrapped)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def _update(self, container, extension):
  */
     __Pyx_XDECREF(__pyx_r);
@@ -6651,7 +6651,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
   /* "jsonobject/base_properties.pyx":183
  *                                     type_config=self.type_config)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError(
@@ -6677,10 +6677,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
 /* "jsonobject/base_properties.pyx":196
  *             return self.unwrap(wrapped)
- * 
+ *
  *     def _update(self, container, extension):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
 
 /* Python wrapper */
@@ -6763,11 +6763,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
   __Pyx_RefNannySetupContext("_update", 0);
 
   /* "jsonobject/base_properties.pyx":197
- * 
+ *
  *     def _update(self, container, extension):
  *         raise NotImplementedError()             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -6777,10 +6777,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
   /* "jsonobject/base_properties.pyx":196
  *             return self.unwrap(wrapped)
- * 
+ *
  *     def _update(self, container, extension):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
 
   /* function exit code */
@@ -6795,7 +6795,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_21JsonContainerProperty
 
 /* "jsonobject/base_properties.pyx":202
  * class DefaultProperty(JsonProperty):
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         assert self.type_config.string_conversions is not None
  *         value = self.value_to_python(obj)
@@ -6875,7 +6875,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_wrap(
   __Pyx_RefNannySetupContext("wrap", 0);
 
   /* "jsonobject/base_properties.pyx":203
- * 
+ *
  *     def wrap(self, obj):
  *         assert self.type_config.string_conversions is not None             # <<<<<<<<<<<<<<
  *         value = self.value_to_python(obj)
@@ -6902,7 +6902,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_wrap(
  *         assert self.type_config.string_conversions is not None
  *         value = self.value_to_python(obj)             # <<<<<<<<<<<<<<
  *         property_ = self.value_to_property(value)
- * 
+ *
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_value_to_python); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -6928,7 +6928,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_wrap(
  *         assert self.type_config.string_conversions is not None
  *         value = self.value_to_python(obj)
  *         property_ = self.value_to_property(value)             # <<<<<<<<<<<<<<
- * 
+ *
  *         if property_:
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_value_to_property); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 205, __pyx_L1_error)
@@ -6953,19 +6953,19 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_wrap(
 
   /* "jsonobject/base_properties.pyx":207
  *         property_ = self.value_to_property(value)
- * 
+ *
  *         if property_:             # <<<<<<<<<<<<<<
  *             return property_.wrap(obj)
- * 
+ *
  */
   __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_v_property_); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 207, __pyx_L1_error)
   if (__pyx_t_3) {
 
     /* "jsonobject/base_properties.pyx":208
- * 
+ *
  *         if property_:
  *             return property_.wrap(obj)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def unwrap(self, obj):
  */
     __Pyx_XDECREF(__pyx_r);
@@ -6992,16 +6992,16 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_wrap(
 
     /* "jsonobject/base_properties.pyx":207
  *         property_ = self.value_to_property(value)
- * 
+ *
  *         if property_:             # <<<<<<<<<<<<<<
  *             return property_.wrap(obj)
- * 
+ *
  */
   }
 
   /* "jsonobject/base_properties.pyx":202
  * class DefaultProperty(JsonProperty):
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         assert self.type_config.string_conversions is not None
  *         value = self.value_to_python(obj)
@@ -7026,7 +7026,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_wrap(
 
 /* "jsonobject/base_properties.pyx":210
  *             return property_.wrap(obj)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         property_ = self.value_to_property(obj)
  *         if property_:
@@ -7105,7 +7105,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_2unwr
   __Pyx_RefNannySetupContext("unwrap", 0);
 
   /* "jsonobject/base_properties.pyx":211
- * 
+ *
  *     def unwrap(self, obj):
  *         property_ = self.value_to_property(obj)             # <<<<<<<<<<<<<<
  *         if property_:
@@ -7183,7 +7183,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_2unwr
  *             return property_.unwrap(obj)
  *         else:
  *             return obj, None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def value_to_property(self, value):
  */
   /*else*/ {
@@ -7203,7 +7203,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_2unwr
 
   /* "jsonobject/base_properties.pyx":210
  *             return property_.wrap(obj)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         property_ = self.value_to_property(obj)
  *         if property_:
@@ -7225,7 +7225,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_2unwr
 
 /* "jsonobject/base_properties.pyx":217
  *             return obj, None
- * 
+ *
  *     def value_to_property(self, value):             # <<<<<<<<<<<<<<
  *         map_types_properties = self.type_config.properties
  *         if value is None:
@@ -7316,7 +7316,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_4valu
   __Pyx_RefNannySetupContext("value_to_property", 0);
 
   /* "jsonobject/base_properties.pyx":218
- * 
+ *
  *     def value_to_property(self, value):
  *         map_types_properties = self.type_config.properties             # <<<<<<<<<<<<<<
  *         if value is None:
@@ -7496,11 +7496,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_4valu
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
         if (likely(PyTuple_CheckExact(sequence))) {
-          __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1); 
+          __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1);
         } else {
-          __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-          __pyx_t_8 = PyList_GET_ITEM(sequence, 1); 
+          __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+          __pyx_t_8 = PyList_GET_ITEM(sequence, 1);
         }
         __Pyx_INCREF(__pyx_t_2);
         __Pyx_INCREF(__pyx_t_8);
@@ -7614,7 +7614,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_4valu
  *                     'value {0!r} not in allowed types: {1!r}'.format(
  *                         value, map_types_properties.keys())             # <<<<<<<<<<<<<<
  *                 )
- * 
+ *
  */
       __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_map_types_properties, __pyx_n_s_keys); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 231, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
@@ -7713,7 +7713,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_4valu
 
   /* "jsonobject/base_properties.pyx":217
  *             return obj, None
- * 
+ *
  *     def value_to_property(self, value):             # <<<<<<<<<<<<<<
  *         map_types_properties = self.type_config.properties
  *         if value is None:
@@ -7742,7 +7742,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_4valu
 
 /* "jsonobject/base_properties.pyx":234
  *                 )
- * 
+ *
  *     def value_to_python(self, value):             # <<<<<<<<<<<<<<
  *         """
  *         convert encoded string values to the proper python type
@@ -7835,7 +7835,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
   __Pyx_INCREF(__pyx_v_value);
 
   /* "jsonobject/base_properties.pyx":246
- * 
+ *
  *         """
  *         if isinstance(value, six.string_types):             # <<<<<<<<<<<<<<
  *             convert = None
@@ -7923,11 +7923,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
         if (likely(PyTuple_CheckExact(sequence))) {
-          __pyx_t_7 = PyTuple_GET_ITEM(sequence, 0); 
-          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1); 
+          __pyx_t_7 = PyTuple_GET_ITEM(sequence, 0);
+          __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1);
         } else {
-          __pyx_t_7 = PyList_GET_ITEM(sequence, 0); 
-          __pyx_t_8 = PyList_GET_ITEM(sequence, 1); 
+          __pyx_t_7 = PyList_GET_ITEM(sequence, 0);
+          __pyx_t_8 = PyList_GET_ITEM(sequence, 1);
         }
         __Pyx_INCREF(__pyx_t_7);
         __Pyx_INCREF(__pyx_t_8);
@@ -7997,7 +7997,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
  *                 if pattern.match(value):
  *                     convert = _convert             # <<<<<<<<<<<<<<
  *                     break
- * 
+ *
  */
         __Pyx_INCREF(__pyx_v__convert);
         __Pyx_DECREF_SET(__pyx_v_convert, __pyx_v__convert);
@@ -8006,7 +8006,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
  *                 if pattern.match(value):
  *                     convert = _convert
  *                     break             # <<<<<<<<<<<<<<
- * 
+ *
  *             if convert is not None:
  */
         goto __pyx_L5_break;
@@ -8033,7 +8033,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
 
     /* "jsonobject/base_properties.pyx":253
  *                     break
- * 
+ *
  *             if convert is not None:             # <<<<<<<<<<<<<<
  *                 try:
  *                     #sometimes regex fail so return value
@@ -8043,7 +8043,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
     if (__pyx_t_3) {
 
       /* "jsonobject/base_properties.pyx":254
- * 
+ *
  *             if convert is not None:
  *                 try:             # <<<<<<<<<<<<<<
  *                     #sometimes regex fail so return value
@@ -8085,7 +8085,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
           __pyx_t_2 = 0;
 
           /* "jsonobject/base_properties.pyx":254
- * 
+ *
  *             if convert is not None:
  *                 try:             # <<<<<<<<<<<<<<
  *                     #sometimes regex fail so return value
@@ -8119,7 +8119,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
         __pyx_L12_except_error:;
 
         /* "jsonobject/base_properties.pyx":254
- * 
+ *
  *             if convert is not None:
  *                 try:             # <<<<<<<<<<<<<<
  *                     #sometimes regex fail so return value
@@ -8140,7 +8140,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
 
       /* "jsonobject/base_properties.pyx":253
  *                     break
- * 
+ *
  *             if convert is not None:             # <<<<<<<<<<<<<<
  *                 try:
  *                     #sometimes regex fail so return value
@@ -8148,7 +8148,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
     }
 
     /* "jsonobject/base_properties.pyx":246
- * 
+ *
  *         """
  *         if isinstance(value, six.string_types):             # <<<<<<<<<<<<<<
  *             convert = None
@@ -8160,8 +8160,8 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
  *                 except Exception:
  *                     pass
  *         return value             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_v_value);
@@ -8170,7 +8170,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
 
   /* "jsonobject/base_properties.pyx":234
  *                 )
- * 
+ *
  *     def value_to_python(self, value):             # <<<<<<<<<<<<<<
  *         """
  *         convert encoded string values to the proper python type
@@ -8197,7 +8197,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_15DefaultProperty_6valu
 
 /* "jsonobject/base_properties.pyx":265
  *     _type = None
- * 
+ *
  *     def assert_type(self, obj):             # <<<<<<<<<<<<<<
  *         if obj is None:
  *             return
@@ -8281,7 +8281,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_as
   __Pyx_RefNannySetupContext("assert_type", 0);
 
   /* "jsonobject/base_properties.pyx":266
- * 
+ *
  *     def assert_type(self, obj):
  *         if obj is None:             # <<<<<<<<<<<<<<
  *             return
@@ -8303,7 +8303,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_as
     goto __pyx_L0;
 
     /* "jsonobject/base_properties.pyx":266
- * 
+ *
  *     def assert_type(self, obj):
  *         if obj is None:             # <<<<<<<<<<<<<<
  *             return
@@ -8340,7 +8340,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_as
  *             raise BadValueError(
  *                 '{0!r} not of type {1!r}'.format(obj, self._type)             # <<<<<<<<<<<<<<
  *             )
- * 
+ *
  */
     __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_0_r_not_of_type_1_r, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 270, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
@@ -8424,7 +8424,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_as
 
   /* "jsonobject/base_properties.pyx":265
  *     _type = None
- * 
+ *
  *     def assert_type(self, obj):             # <<<<<<<<<<<<<<
  *         if obj is None:
  *             return
@@ -8451,10 +8451,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_as
 
 /* "jsonobject/base_properties.pyx":273
  *             )
- * 
+ *
  *     def selective_coerce(self, obj):             # <<<<<<<<<<<<<<
  *         return obj
- * 
+ *
  */
 
 /* Python wrapper */
@@ -8525,10 +8525,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_2s
   __Pyx_RefNannySetupContext("selective_coerce", 0);
 
   /* "jsonobject/base_properties.pyx":274
- * 
+ *
  *     def selective_coerce(self, obj):
  *         return obj             # <<<<<<<<<<<<<<
- * 
+ *
  *     def wrap(self, obj):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8538,10 +8538,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_2s
 
   /* "jsonobject/base_properties.pyx":273
  *             )
- * 
+ *
  *     def selective_coerce(self, obj):             # <<<<<<<<<<<<<<
  *         return obj
- * 
+ *
  */
 
   /* function exit code */
@@ -8553,7 +8553,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_2s
 
 /* "jsonobject/base_properties.pyx":276
  *         return obj
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -8631,7 +8631,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_4w
   __Pyx_INCREF(__pyx_v_obj);
 
   /* "jsonobject/base_properties.pyx":277
- * 
+ *
  *     def wrap(self, obj):
  *         obj = self.selective_coerce(obj)             # <<<<<<<<<<<<<<
  *         self.assert_type(obj)
@@ -8662,7 +8662,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_4w
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)             # <<<<<<<<<<<<<<
  *         return obj
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_assert_type); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 278, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -8687,7 +8687,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_4w
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
  *         return obj             # <<<<<<<<<<<<<<
- * 
+ *
  *     def unwrap(self, obj):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8697,7 +8697,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_4w
 
   /* "jsonobject/base_properties.pyx":276
  *         return obj
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -8719,7 +8719,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_4w
 
 /* "jsonobject/base_properties.pyx":281
  *         return obj
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -8797,7 +8797,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_6u
   __Pyx_INCREF(__pyx_v_obj);
 
   /* "jsonobject/base_properties.pyx":282
- * 
+ *
  *     def unwrap(self, obj):
  *         obj = self.selective_coerce(obj)             # <<<<<<<<<<<<<<
  *         self.assert_type(obj)
@@ -8828,7 +8828,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_6u
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)             # <<<<<<<<<<<<<<
  *         return obj, obj
- * 
+ *
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_assert_type); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 283, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -8853,8 +8853,8 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_6u
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
  *         return obj, obj             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 284, __pyx_L1_error)
@@ -8871,7 +8871,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_6u
 
   /* "jsonobject/base_properties.pyx":281
  *         return obj
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -8893,7 +8893,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_18AssertTypeProperty_6u
 
 /* "jsonobject/base_properties.pyx":291
  *     _type = None
- * 
+ *
  *     def __init__(self, exact=False, *args, **kwargs):             # <<<<<<<<<<<<<<
  *         super(AbstractDateProperty, self).__init__(*args, **kwargs)
  *         self.exact = exact
@@ -8995,11 +8995,11 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
   __Pyx_RefNannySetupContext("__init__", 0);
 
   /* "jsonobject/base_properties.pyx":292
- * 
+ *
  *     def __init__(self, exact=False, *args, **kwargs):
  *         super(AbstractDateProperty, self).__init__(*args, **kwargs)             # <<<<<<<<<<<<<<
  *         self.exact = exact
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_AbstractDateProperty); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -9026,14 +9026,14 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
  *     def __init__(self, exact=False, *args, **kwargs):
  *         super(AbstractDateProperty, self).__init__(*args, **kwargs)
  *         self.exact = exact             # <<<<<<<<<<<<<<
- * 
+ *
  *     def wrap(self, obj):
  */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_exact, __pyx_v_exact) < 0) __PYX_ERR(0, 293, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":291
  *     _type = None
- * 
+ *
  *     def __init__(self, exact=False, *args, **kwargs):             # <<<<<<<<<<<<<<
  *         super(AbstractDateProperty, self).__init__(*args, **kwargs)
  *         self.exact = exact
@@ -9055,7 +9055,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
 /* "jsonobject/base_properties.pyx":295
  *         self.exact = exact
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         try:
  *             if not isinstance(obj, six.string_types):
@@ -9145,7 +9145,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
   __Pyx_RefNannySetupContext("wrap", 0);
 
   /* "jsonobject/base_properties.pyx":296
- * 
+ *
  *     def wrap(self, obj):
  *         try:             # <<<<<<<<<<<<<<
  *             if not isinstance(obj, six.string_types):
@@ -9229,7 +9229,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
       goto __pyx_L7_try_return;
 
       /* "jsonobject/base_properties.pyx":296
- * 
+ *
  *     def wrap(self, obj):
  *         try:             # <<<<<<<<<<<<<<
  *             if not isinstance(obj, six.string_types):
@@ -9273,7 +9273,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
  *                 obj,
  *                 self._type.__name__,             # <<<<<<<<<<<<<<
  *             ))
- * 
+ *
  */
       __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_type); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 303, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_14);
@@ -9351,7 +9351,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
     __pyx_L5_except_error:;
 
     /* "jsonobject/base_properties.pyx":296
- * 
+ *
  *     def wrap(self, obj):
  *         try:             # <<<<<<<<<<<<<<
  *             if not isinstance(obj, six.string_types):
@@ -9372,7 +9372,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
   /* "jsonobject/base_properties.pyx":295
  *         self.exact = exact
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         try:
  *             if not isinstance(obj, six.string_types):
@@ -9400,7 +9400,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
 /* "jsonobject/base_properties.pyx":306
  *             ))
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError('{0!r} is not a {1} object'.format(
@@ -9484,7 +9484,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
   __Pyx_RefNannySetupContext("unwrap", 0);
 
   /* "jsonobject/base_properties.pyx":307
- * 
+ *
  *     def unwrap(self, obj):
  *         if not isinstance(obj, self._type):             # <<<<<<<<<<<<<<
  *             raise BadValueError('{0!r} is not a {1} object'.format(
@@ -9589,7 +9589,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
     __PYX_ERR(0, 308, __pyx_L1_error)
 
     /* "jsonobject/base_properties.pyx":307
- * 
+ *
  *     def unwrap(self, obj):
  *         if not isinstance(obj, self._type):             # <<<<<<<<<<<<<<
  *             raise BadValueError('{0!r} is not a {1} object'.format(
@@ -9601,7 +9601,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
  *                 self._type.__name__,
  *             ))
  *         return self._unwrap(obj)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def _wrap(self, obj):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -9628,7 +9628,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
   /* "jsonobject/base_properties.pyx":306
  *             ))
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError('{0!r} is not a {1} object'.format(
@@ -9653,10 +9653,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
 /* "jsonobject/base_properties.pyx":314
  *         return self._unwrap(obj)
- * 
+ *
  *     def _wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
 
 /* Python wrapper */
@@ -9728,10 +9728,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
   __Pyx_RefNannySetupContext("_wrap", 0);
 
   /* "jsonobject/base_properties.pyx":315
- * 
+ *
  *     def _wrap(self, obj):
  *         raise NotImplementedError()             # <<<<<<<<<<<<<<
- * 
+ *
  *     def _unwrap(self, obj):
  */
   __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_builtin_NotImplementedError); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 315, __pyx_L1_error)
@@ -9742,10 +9742,10 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
   /* "jsonobject/base_properties.pyx":314
  *         return self._unwrap(obj)
- * 
+ *
  *     def _wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
 
   /* function exit code */
@@ -9760,7 +9760,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
 /* "jsonobject/base_properties.pyx":317
  *         raise NotImplementedError()
- * 
+ *
  *     def _unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
  */
@@ -9834,7 +9834,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
   __Pyx_RefNannySetupContext("_unwrap", 0);
 
   /* "jsonobject/base_properties.pyx":318
- * 
+ *
  *     def _unwrap(self, obj):
  *         raise NotImplementedError()             # <<<<<<<<<<<<<<
  */
@@ -9846,7 +9846,7 @@ static PyObject *__pyx_pf_10jsonobject_15base_properties_20AbstractDateProperty_
 
   /* "jsonobject/base_properties.pyx":317
  *         raise NotImplementedError()
- * 
+ *
  *     def _unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
  */
@@ -9913,7 +9913,7 @@ static PyTypeObject __pyx_type_10jsonobject_15base_properties___pyx_scope_struct
   sizeof(struct __pyx_obj_10jsonobject_15base_properties___pyx_scope_struct____init__), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_15base_properties___pyx_scope_struct____init__, /*tp_dealloc*/
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -10201,7 +10201,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * else:
  *     def function_name(f):             # <<<<<<<<<<<<<<
  *         return f.func_name
- * 
+ *
  */
   __pyx_tuple__3 = PyTuple_Pack(1, __pyx_n_s_f); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
@@ -10209,10 +10209,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_properties_pyx, __pyx_n_s_function_name, 11, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 11, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":15
- * 
- * 
+ *
+ *
  * class JsonProperty(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     default = None
  */
   __pyx_tuple__5 = PyTuple_Pack(1, __pyx_builtin_object); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 15, __pyx_L1_error)
@@ -10221,7 +10221,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":20
  *     type_config = None
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,             # <<<<<<<<<<<<<<
  *                  required=False, exclude_if_none=False, validators=None,
  *                  verbose_name=None, type_config=None):
@@ -10236,7 +10236,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":45
  *             self.type_config = type_config
- * 
+ *
  *     def init_property(self, default_name, type_config):             # <<<<<<<<<<<<<<
  *         self.name = self.name or default_name
  *         self.type_config = self.type_config or type_config
@@ -10248,10 +10248,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":49
  *         self.type_config = self.type_config or type_config
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
   __pyx_tuple__12 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_obj); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 49, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__12);
@@ -10260,7 +10260,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":52
  *         raise NotImplementedError()
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         """
  *         must return tuple of (wrapped, unwrapped)
@@ -10272,7 +10272,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":64
  *         raise NotImplementedError()
- * 
+ *
  *     def to_json(self, value):             # <<<<<<<<<<<<<<
  *         _, unwrapped = self.unwrap(value)
  *         return unwrapped
@@ -10284,10 +10284,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":68
  *         return unwrapped
- * 
+ *
  *     def to_python(self, value):             # <<<<<<<<<<<<<<
  *         return self.wrap(value)
- * 
+ *
  */
   __pyx_tuple__18 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_value); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__18);
@@ -10296,7 +10296,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":71
  *         return self.wrap(value)
- * 
+ *
  *     def __get__(self, instance, owner):             # <<<<<<<<<<<<<<
  *         if instance:
  *             assert self.name in instance
@@ -10308,10 +10308,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":78
  *             return self
- * 
+ *
  *     def __set__(self, instance, value):             # <<<<<<<<<<<<<<
  *         instance[self.name] = value
- * 
+ *
  */
   __pyx_tuple__22 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_instance, __pyx_n_s_value); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__22);
@@ -10320,7 +10320,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":81
  *         instance[self.name] = value
- * 
+ *
  *     def __call__(self, method):             # <<<<<<<<<<<<<<
  *         """
  *         use a property as a decorator to set its default value
@@ -10332,10 +10332,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":95
  *         return self
- * 
+ *
  *     def exclude(self, value):             # <<<<<<<<<<<<<<
  *         return self.exclude_if_none and not value
- * 
+ *
  */
   __pyx_tuple__26 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_value); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__26);
@@ -10344,10 +10344,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":98
  *         return self.exclude_if_none and not value
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return value is None
- * 
+ *
  */
   __pyx_tuple__28 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_value); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__28);
@@ -10356,7 +10356,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":101
  *         return value is None
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):             # <<<<<<<<<<<<<<
  *         if (self.choice_keys and value not in self.choice_keys
  *                 and value is not None):
@@ -10371,7 +10371,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":117
  *             value.validate(required=required)
- * 
+ *
  *     def _custom_validate(self, value):             # <<<<<<<<<<<<<<
  *         if self._validators:
  *             if hasattr(self._validators, '__iter__'):
@@ -10383,7 +10383,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":131
  *     container_class = None
- * 
+ *
  *     def __init__(self, item_type=None, **kwargs):             # <<<<<<<<<<<<<<
  *         self._item_type_deferred = item_type
  *         super(JsonContainerProperty, self).__init__(**kwargs)
@@ -10398,7 +10398,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":135
  *         super(JsonContainerProperty, self).__init__(**kwargs)
- * 
+ *
  *     def init_property(self, **kwargs):             # <<<<<<<<<<<<<<
  *         super(JsonContainerProperty, self).init_property(**kwargs)
  *         if not inspect.isfunction(self._item_type_deferred):
@@ -10410,7 +10410,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":141
  *             self.item_wrapper
- * 
+ *
  *     def to_item_wrapper(self, item_type):             # <<<<<<<<<<<<<<
  *         from jsonobject.base import JsonObjectMeta
  *         from .properties import ObjectProperty
@@ -10421,7 +10421,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(2, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_jsonobject_base_properties_pyx, __pyx_n_s_to_item_wrapper, 141, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 141, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":167
- * 
+ *
  *     @property
  *     def item_wrapper(self):             # <<<<<<<<<<<<<<
  *         if hasattr(self, '_item_type_deferred'):
@@ -10434,10 +10434,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":176
  *         return self._item_wrapper
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return not value
- * 
+ *
  */
   __pyx_tuple__44 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_value); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 176, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__44);
@@ -10446,7 +10446,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":179
  *         return not value
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         return self.container_class(obj, wrapper=self.item_wrapper,
  *                                     type_config=self.type_config)
@@ -10458,7 +10458,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":183
  *                                     type_config=self.type_config)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError(
@@ -10470,10 +10470,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":196
  *             return self.unwrap(wrapped)
- * 
+ *
  *     def _update(self, container, extension):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
   __pyx_tuple__50 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_container, __pyx_n_s_extension); if (unlikely(!__pyx_tuple__50)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__50);
@@ -10482,7 +10482,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":202
  * class DefaultProperty(JsonProperty):
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         assert self.type_config.string_conversions is not None
  *         value = self.value_to_python(obj)
@@ -10494,7 +10494,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":210
  *             return property_.wrap(obj)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         property_ = self.value_to_property(obj)
  *         if property_:
@@ -10506,7 +10506,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":217
  *             return obj, None
- * 
+ *
  *     def value_to_property(self, value):             # <<<<<<<<<<<<<<
  *         map_types_properties = self.type_config.properties
  *         if value is None:
@@ -10518,7 +10518,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":234
  *                 )
- * 
+ *
  *     def value_to_python(self, value):             # <<<<<<<<<<<<<<
  *         """
  *         convert encoded string values to the proper python type
@@ -10530,7 +10530,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":265
  *     _type = None
- * 
+ *
  *     def assert_type(self, obj):             # <<<<<<<<<<<<<<
  *         if obj is None:
  *             return
@@ -10542,10 +10542,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":273
  *             )
- * 
+ *
  *     def selective_coerce(self, obj):             # <<<<<<<<<<<<<<
  *         return obj
- * 
+ *
  */
   __pyx_tuple__62 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_obj); if (unlikely(!__pyx_tuple__62)) __PYX_ERR(0, 273, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__62);
@@ -10554,7 +10554,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":276
  *         return obj
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -10566,7 +10566,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":281
  *         return obj
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -10578,7 +10578,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":291
  *     _type = None
- * 
+ *
  *     def __init__(self, exact=False, *args, **kwargs):             # <<<<<<<<<<<<<<
  *         super(AbstractDateProperty, self).__init__(*args, **kwargs)
  *         self.exact = exact
@@ -10593,7 +10593,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":295
  *         self.exact = exact
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         try:
  *             if not isinstance(obj, six.string_types):
@@ -10605,7 +10605,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":306
  *             ))
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError('{0!r} is not a {1} object'.format(
@@ -10617,10 +10617,10 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":314
  *         return self._unwrap(obj)
- * 
+ *
  *     def _wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
   __pyx_tuple__75 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_obj); if (unlikely(!__pyx_tuple__75)) __PYX_ERR(0, 314, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__75);
@@ -10629,7 +10629,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "jsonobject/base_properties.pyx":317
  *         raise NotImplementedError()
- * 
+ *
  *     def _unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
  */
@@ -10687,8 +10687,6 @@ static int __Pyx_modinit_type_init_code(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  if (PyType_Ready(&__pyx_type_10jsonobject_15base_properties___pyx_scope_struct____init__) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
-  __pyx_type_10jsonobject_15base_properties___pyx_scope_struct____init__.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_10jsonobject_15base_properties___pyx_scope_struct____init__.tp_dictoffset && __pyx_type_10jsonobject_15base_properties___pyx_scope_struct____init__.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_10jsonobject_15base_properties___pyx_scope_struct____init__.tp_getattro = __Pyx_PyObject_GenericGetAttrNoDict;
   }
@@ -10942,7 +10940,7 @@ if (!__Pyx_RefNanny) {
  * import six
  * import inspect             # <<<<<<<<<<<<<<
  * from jsonobject.exceptions import BadValueError
- * 
+ *
  */
   __pyx_t_1 = __Pyx_patch_inspect(__Pyx_Import(__pyx_n_s_inspect, 0, 0)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -10953,7 +10951,7 @@ if (!__Pyx_RefNanny) {
  * import six
  * import inspect
  * from jsonobject.exceptions import BadValueError             # <<<<<<<<<<<<<<
- * 
+ *
  * function_name = None
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 4, __pyx_L1_error)
@@ -10972,7 +10970,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":6
  * from jsonobject.exceptions import BadValueError
- * 
+ *
  * function_name = None             # <<<<<<<<<<<<<<
  * if six.PY3:
  *     def function_name(f):
@@ -10980,7 +10978,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_function_name, Py_None) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":7
- * 
+ *
  * function_name = None
  * if six.PY3:             # <<<<<<<<<<<<<<
  *     def function_name(f):
@@ -11008,7 +11006,7 @@ if (!__Pyx_RefNanny) {
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
     /* "jsonobject/base_properties.pyx":7
- * 
+ *
  * function_name = None
  * if six.PY3:             # <<<<<<<<<<<<<<
  *     def function_name(f):
@@ -11022,7 +11020,7 @@ if (!__Pyx_RefNanny) {
  * else:
  *     def function_name(f):             # <<<<<<<<<<<<<<
  *         return f.func_name
- * 
+ *
  */
   /*else*/ {
     __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_3function_name, NULL, __pyx_n_s_jsonobject_base_properties); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 11, __pyx_L1_error)
@@ -11033,10 +11031,10 @@ if (!__Pyx_RefNanny) {
   __pyx_L2:;
 
   /* "jsonobject/base_properties.pyx":15
- * 
- * 
+ *
+ *
  * class JsonProperty(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     default = None
  */
   __pyx_t_1 = __Pyx_CalculateMetaclass(NULL, __pyx_tuple__5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
@@ -11046,25 +11044,25 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":17
  * class JsonProperty(object):
- * 
+ *
  *     default = None             # <<<<<<<<<<<<<<
  *     type_config = None
- * 
+ *
  */
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_default, Py_None) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":18
- * 
+ *
  *     default = None
  *     type_config = None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,
  */
   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_type_config, Py_None) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":20
  *     type_config = None
- * 
+ *
  *     def __init__(self, default=Ellipsis, name=None, choices=None,             # <<<<<<<<<<<<<<
  *                  required=False, exclude_if_none=False, validators=None,
  *                  verbose_name=None, type_config=None):
@@ -11077,7 +11075,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":45
  *             self.type_config = type_config
- * 
+ *
  *     def init_property(self, default_name, type_config):             # <<<<<<<<<<<<<<
  *         self.name = self.name or default_name
  *         self.type_config = self.type_config or type_config
@@ -11089,10 +11087,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":49
  *         self.type_config = self.type_config or type_config
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_12JsonProperty_5wrap, 0, __pyx_n_s_JsonProperty_wrap, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__13)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 49, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -11101,7 +11099,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":52
  *         raise NotImplementedError()
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         """
  *         must return tuple of (wrapped, unwrapped)
@@ -11113,7 +11111,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":64
  *         raise NotImplementedError()
- * 
+ *
  *     def to_json(self, value):             # <<<<<<<<<<<<<<
  *         _, unwrapped = self.unwrap(value)
  *         return unwrapped
@@ -11125,10 +11123,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":68
  *         return unwrapped
- * 
+ *
  *     def to_python(self, value):             # <<<<<<<<<<<<<<
  *         return self.wrap(value)
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_12JsonProperty_11to_python, 0, __pyx_n_s_JsonProperty_to_python, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__19)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -11137,7 +11135,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":71
  *         return self.wrap(value)
- * 
+ *
  *     def __get__(self, instance, owner):             # <<<<<<<<<<<<<<
  *         if instance:
  *             assert self.name in instance
@@ -11149,10 +11147,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":78
  *             return self
- * 
+ *
  *     def __set__(self, instance, value):             # <<<<<<<<<<<<<<
  *         instance[self.name] = value
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_12JsonProperty_15__set__, 0, __pyx_n_s_JsonProperty___set, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -11161,7 +11159,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":81
  *         instance[self.name] = value
- * 
+ *
  *     def __call__(self, method):             # <<<<<<<<<<<<<<
  *         """
  *         use a property as a decorator to set its default value
@@ -11173,10 +11171,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":95
  *         return self
- * 
+ *
  *     def exclude(self, value):             # <<<<<<<<<<<<<<
  *         return self.exclude_if_none and not value
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_12JsonProperty_19exclude, 0, __pyx_n_s_JsonProperty_exclude, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -11185,10 +11183,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":98
  *         return self.exclude_if_none and not value
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return value is None
- * 
+ *
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_12JsonProperty_21empty, 0, __pyx_n_s_JsonProperty_empty, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__29)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -11197,7 +11195,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":101
  *         return value is None
- * 
+ *
  *     def validate(self, value, required=True, recursive=True):             # <<<<<<<<<<<<<<
  *         if (self.choice_keys and value not in self.choice_keys
  *                 and value is not None):
@@ -11210,7 +11208,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":117
  *             value.validate(required=required)
- * 
+ *
  *     def _custom_validate(self, value):             # <<<<<<<<<<<<<<
  *         if self._validators:
  *             if hasattr(self._validators, '__iter__'):
@@ -11221,10 +11219,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "jsonobject/base_properties.pyx":15
- * 
- * 
+ *
+ *
  * class JsonProperty(object):             # <<<<<<<<<<<<<<
- * 
+ *
  *     default = None
  */
   __pyx_t_4 = __Pyx_Py3ClassCreate(__pyx_t_1, __pyx_n_s_JsonProperty, __pyx_tuple__5, __pyx_t_2, NULL, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 15, __pyx_L1_error)
@@ -11235,10 +11233,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base_properties.pyx":126
- * 
- * 
+ *
+ *
  * class JsonContainerProperty(JsonProperty):             # <<<<<<<<<<<<<<
- * 
+ *
  *     _type = default = None
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_JsonProperty); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 126, __pyx_L1_error)
@@ -11255,26 +11253,26 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":128
  * class JsonContainerProperty(JsonProperty):
- * 
+ *
  *     _type = default = None             # <<<<<<<<<<<<<<
  *     container_class = None
- * 
+ *
  */
   if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_type, Py_None) < 0) __PYX_ERR(0, 128, __pyx_L1_error)
   if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_default, Py_None) < 0) __PYX_ERR(0, 128, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":129
- * 
+ *
  *     _type = default = None
  *     container_class = None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __init__(self, item_type=None, **kwargs):
  */
   if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_container_class, Py_None) < 0) __PYX_ERR(0, 129, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":131
  *     container_class = None
- * 
+ *
  *     def __init__(self, item_type=None, **kwargs):             # <<<<<<<<<<<<<<
  *         self._item_type_deferred = item_type
  *         super(JsonContainerProperty, self).__init__(**kwargs)
@@ -11287,7 +11285,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":135
  *         super(JsonContainerProperty, self).__init__(**kwargs)
- * 
+ *
  *     def init_property(self, **kwargs):             # <<<<<<<<<<<<<<
  *         super(JsonContainerProperty, self).init_property(**kwargs)
  *         if not inspect.isfunction(self._item_type_deferred):
@@ -11299,7 +11297,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":141
  *             self.item_wrapper
- * 
+ *
  *     def to_item_wrapper(self, item_type):             # <<<<<<<<<<<<<<
  *         from jsonobject.base import JsonObjectMeta
  *         from .properties import ObjectProperty
@@ -11310,7 +11308,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
   /* "jsonobject/base_properties.pyx":167
- * 
+ *
  *     @property
  *     def item_wrapper(self):             # <<<<<<<<<<<<<<
  *         if hasattr(self, '_item_type_deferred'):
@@ -11321,7 +11319,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":166
  *             ))
- * 
+ *
  *     @property             # <<<<<<<<<<<<<<
  *     def item_wrapper(self):
  *         if hasattr(self, '_item_type_deferred'):
@@ -11334,10 +11332,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":176
  *         return self._item_wrapper
- * 
+ *
  *     def empty(self, value):             # <<<<<<<<<<<<<<
  *         return not value
- * 
+ *
  */
   __pyx_t_6 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_21JsonContainerProperty_9empty, 0, __pyx_n_s_JsonContainerProperty_empty, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 176, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
@@ -11346,7 +11344,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":179
  *         return not value
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         return self.container_class(obj, wrapper=self.item_wrapper,
  *                                     type_config=self.type_config)
@@ -11358,7 +11356,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":183
  *                                     type_config=self.type_config)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError(
@@ -11370,10 +11368,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":196
  *             return self.unwrap(wrapped)
- * 
+ *
  *     def _update(self, container, extension):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
   __pyx_t_6 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_21JsonContainerProperty_15_update, 0, __pyx_n_s_JsonContainerProperty__update, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
@@ -11381,10 +11379,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
   /* "jsonobject/base_properties.pyx":126
- * 
- * 
+ *
+ *
  * class JsonContainerProperty(JsonProperty):             # <<<<<<<<<<<<<<
- * 
+ *
  *     _type = default = None
  */
   __pyx_t_6 = __Pyx_Py3ClassCreate(__pyx_t_1, __pyx_n_s_JsonContainerProperty, __pyx_t_2, __pyx_t_4, NULL, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 126, __pyx_L1_error)
@@ -11396,10 +11394,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base_properties.pyx":200
- * 
- * 
+ *
+ *
  * class DefaultProperty(JsonProperty):             # <<<<<<<<<<<<<<
- * 
+ *
  *     def wrap(self, obj):
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_JsonProperty); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 200, __pyx_L1_error)
@@ -11416,7 +11414,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":202
  * class DefaultProperty(JsonProperty):
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         assert self.type_config.string_conversions is not None
  *         value = self.value_to_python(obj)
@@ -11428,7 +11426,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":210
  *             return property_.wrap(obj)
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         property_ = self.value_to_property(obj)
  *         if property_:
@@ -11440,7 +11438,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":217
  *             return obj, None
- * 
+ *
  *     def value_to_property(self, value):             # <<<<<<<<<<<<<<
  *         map_types_properties = self.type_config.properties
  *         if value is None:
@@ -11452,7 +11450,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":234
  *                 )
- * 
+ *
  *     def value_to_python(self, value):             # <<<<<<<<<<<<<<
  *         """
  *         convert encoded string values to the proper python type
@@ -11463,10 +11461,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
   /* "jsonobject/base_properties.pyx":200
- * 
- * 
+ *
+ *
  * class DefaultProperty(JsonProperty):             # <<<<<<<<<<<<<<
- * 
+ *
  *     def wrap(self, obj):
  */
   __pyx_t_6 = __Pyx_Py3ClassCreate(__pyx_t_2, __pyx_n_s_DefaultProperty, __pyx_t_1, __pyx_t_4, NULL, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 200, __pyx_L1_error)
@@ -11478,11 +11476,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "jsonobject/base_properties.pyx":262
- * 
- * 
+ *
+ *
  * class AssertTypeProperty(JsonProperty):             # <<<<<<<<<<<<<<
  *     _type = None
- * 
+ *
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_JsonProperty); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 262, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -11497,17 +11495,17 @@ if (!__Pyx_RefNanny) {
   __Pyx_GOTREF(__pyx_t_4);
 
   /* "jsonobject/base_properties.pyx":263
- * 
+ *
  * class AssertTypeProperty(JsonProperty):
  *     _type = None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def assert_type(self, obj):
  */
   if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_type, Py_None) < 0) __PYX_ERR(0, 263, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":265
  *     _type = None
- * 
+ *
  *     def assert_type(self, obj):             # <<<<<<<<<<<<<<
  *         if obj is None:
  *             return
@@ -11519,10 +11517,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":273
  *             )
- * 
+ *
  *     def selective_coerce(self, obj):             # <<<<<<<<<<<<<<
  *         return obj
- * 
+ *
  */
   __pyx_t_6 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_18AssertTypeProperty_3selective_coerce, 0, __pyx_n_s_AssertTypeProperty_selective_coe, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__63)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 273, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
@@ -11531,7 +11529,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":276
  *         return obj
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -11543,7 +11541,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":281
  *         return obj
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         obj = self.selective_coerce(obj)
  *         self.assert_type(obj)
@@ -11554,11 +11552,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
   /* "jsonobject/base_properties.pyx":262
- * 
- * 
+ *
+ *
  * class AssertTypeProperty(JsonProperty):             # <<<<<<<<<<<<<<
  *     _type = None
- * 
+ *
  */
   __pyx_t_6 = __Pyx_Py3ClassCreate(__pyx_t_1, __pyx_n_s_AssertTypeProperty, __pyx_t_2, __pyx_t_4, NULL, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 262, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
@@ -11569,10 +11567,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "jsonobject/base_properties.pyx":287
- * 
- * 
+ *
+ *
  * class AbstractDateProperty(JsonProperty):             # <<<<<<<<<<<<<<
- * 
+ *
  *     _type = None
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_JsonProperty); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 287, __pyx_L1_error)
@@ -11589,16 +11587,16 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":289
  * class AbstractDateProperty(JsonProperty):
- * 
+ *
  *     _type = None             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __init__(self, exact=False, *args, **kwargs):
  */
   if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_n_s_type, Py_None) < 0) __PYX_ERR(0, 289, __pyx_L1_error)
 
   /* "jsonobject/base_properties.pyx":291
  *     _type = None
- * 
+ *
  *     def __init__(self, exact=False, *args, **kwargs):             # <<<<<<<<<<<<<<
  *         super(AbstractDateProperty, self).__init__(*args, **kwargs)
  *         self.exact = exact
@@ -11611,7 +11609,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":295
  *         self.exact = exact
- * 
+ *
  *     def wrap(self, obj):             # <<<<<<<<<<<<<<
  *         try:
  *             if not isinstance(obj, six.string_types):
@@ -11623,7 +11621,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":306
  *             ))
- * 
+ *
  *     def unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         if not isinstance(obj, self._type):
  *             raise BadValueError('{0!r} is not a {1} object'.format(
@@ -11635,10 +11633,10 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":314
  *         return self._unwrap(obj)
- * 
+ *
  *     def _wrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
- * 
+ *
  */
   __pyx_t_6 = __Pyx_CyFunction_NewEx(&__pyx_mdef_10jsonobject_15base_properties_20AbstractDateProperty_7_wrap, 0, __pyx_n_s_AbstractDateProperty__wrap, NULL, __pyx_n_s_jsonobject_base_properties, __pyx_d, ((PyObject *)__pyx_codeobj__76)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 314, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
@@ -11647,7 +11645,7 @@ if (!__Pyx_RefNanny) {
 
   /* "jsonobject/base_properties.pyx":317
  *         raise NotImplementedError()
- * 
+ *
  *     def _unwrap(self, obj):             # <<<<<<<<<<<<<<
  *         raise NotImplementedError()
  */
@@ -11657,10 +11655,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
   /* "jsonobject/base_properties.pyx":287
- * 
- * 
+ *
+ *
  * class AbstractDateProperty(JsonProperty):             # <<<<<<<<<<<<<<
- * 
+ *
  *     _type = None
  */
   __pyx_t_6 = __Pyx_Py3ClassCreate(__pyx_t_2, __pyx_n_s_AbstractDateProperty, __pyx_t_1, __pyx_t_4, NULL, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 287, __pyx_L1_error)
