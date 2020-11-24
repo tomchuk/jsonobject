@@ -11264,7 +11264,6 @@ static PyTypeObject __pyx_type_10jsonobject_10containers___pyx_scope_struct__sor
   sizeof(struct __pyx_obj_10jsonobject_10containers___pyx_scope_struct__sort), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_10containers___pyx_scope_struct__sort, /*tp_dealloc*/
-  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3

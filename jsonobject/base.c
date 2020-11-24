@@ -11055,7 +11055,6 @@ static PyTypeObject __pyx_type_10jsonobject_4base___pyx_scope_struct____repr__ =
   sizeof(struct __pyx_obj_10jsonobject_4base___pyx_scope_struct____repr__), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_4base___pyx_scope_struct____repr__, /*tp_dealloc*/
-  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -11154,7 +11153,6 @@ static PyTypeObject __pyx_type_10jsonobject_4base___pyx_scope_struct_1_genexpr =
   sizeof(struct __pyx_obj_10jsonobject_4base___pyx_scope_struct_1_genexpr), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_4base___pyx_scope_struct_1_genexpr, /*tp_dealloc*/
-  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
@@ -11257,7 +11255,6 @@ static PyTypeObject __pyx_type_10jsonobject_4base___pyx_scope_struct_2_genexpr =
   sizeof(struct __pyx_obj_10jsonobject_4base___pyx_scope_struct_2_genexpr), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_10jsonobject_4base___pyx_scope_struct_2_genexpr, /*tp_dealloc*/
-  0, /*tp_vectorcall_offset*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
   #if PY_MAJOR_VERSION < 3
